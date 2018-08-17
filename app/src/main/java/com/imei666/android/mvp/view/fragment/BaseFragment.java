@@ -10,9 +10,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.nostra13.universalimageloader.core.ImageLoader;
+
 
 public class BaseFragment extends Fragment {
     public static final String TAG = BaseFragment.class.getSimpleName();
+    public ImageLoader mImageLoader;
+
+
     public void onBackPressed(){
         Log.i(TAG,"onBackPressed");
     }
@@ -21,6 +26,7 @@ public class BaseFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        mImageLoader = ImageLoader.getInstance();
         return super.onCreateView(inflater, container, savedInstanceState);
     }
 

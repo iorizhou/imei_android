@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/imei_android.iml" filepath="$PROJECT_DIR$/imei_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/staggeredGridView/staggeredGridView.iml" filepath="$PROJECT_DIR$/staggeredGridView/staggeredGridView.iml" />
     </modules>
   </component>
 </project>

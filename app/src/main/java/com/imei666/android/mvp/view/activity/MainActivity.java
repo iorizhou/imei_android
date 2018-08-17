@@ -34,14 +34,14 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
     private LinearLayout mLayout1,mLayout2,mLayout3,mLayout4;
     private BaseFragment mHomepageFragment,mItemFrgment,mMsgFragment,mMoreFragment;
     @BindView(R.id.text1)
-    private TextView mText1;
+    TextView mText1;
     @BindView(R.id.text2)
-    private TextView mText2;
+    TextView mText2;
     @BindView(R.id.text3)
-    private TextView mText3;
+    TextView mText3;
     @BindView(R.id.text4)
-    private TextView mText4;
-    private ImageView mImg1,mImg2,mImg3,mImg4;
+    TextView mText4;
+    ImageView mImg1,mImg2,mImg3,mImg4;
     FragmentManager mFragmentManager;
 
     @Override

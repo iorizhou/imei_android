@@ -18,8 +18,12 @@ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
 import com.nostra13.universalimageloader.core.download.BaseImageDownloader;
 import com.nostra13.universalimageloader.utils.StorageUtils;
+import com.zhy.http.okhttp.OkHttpUtils;
 
 import java.io.File;
+import java.util.concurrent.TimeUnit;
+
+import okhttp3.OkHttpClient;
 
 public class ImeiApplication extends Application{
 
@@ -33,8 +37,20 @@ public class ImeiApplication extends Application{
         super.onCreate();
         initImageLoader();
         initPictureOptions();
+        initOkHttp();
         CrashHandler.getInstance().init(getApplicationContext());
         sInstance = this;
+    }
+
+    private void initOkHttp(){
+        OkHttpClient okHttpClient = new OkHttpClient.Builder()
+//                .addInterceptor(new LoggerInterceptor("TAG"))
+                .connectTimeout(10000L, TimeUnit.MILLISECONDS)
+                .readTimeout(10000L, TimeUnit.MILLISECONDS)
+                //其他配置
+                .build();
+
+        OkHttpUtils.initClient(okHttpClient);
     }
 
     public void initImageLoader() {

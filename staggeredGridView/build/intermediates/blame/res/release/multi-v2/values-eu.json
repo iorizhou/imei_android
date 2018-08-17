@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/iorizhou/imei_android/staggeredGridView/build/intermediates/res/merged/release/values-eu/values-eu.xml",
+            "map": [
+                {
+                    "source": "/Users/iorizhou/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/201a01bbf115d83639d9c7e4b3bfc9c0/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/iorizhou/imei_android/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-eu/values-eu.xml",
+            "map": [
+                {
+                    "source": "/Users/iorizhou/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc01.aar/201a01bbf115d83639d9c7e4b3bfc9c0/res/values-eu/values-eu.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}
