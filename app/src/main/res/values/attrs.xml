@@ -47,7 +47,10 @@
         <attr name="banner_switchtime" format="integer"/> <!--轮播时，viewpager的切换速度-->
         <attr name="banner_loop_max_count" format="integer"/> <!--超过这个数字时，才会轮播效果-->
     </declare-styleable>
-
+    <declare-styleable name="StaggeredGridView">
+        <attr name="drawSelectorOnTop" format="boolean" />
+        <attr name="numColumns" format="integer" />
+    </declare-styleable>
     <!--弧形图片-->
     <declare-styleable name="ArcImageView">
         <attr name="arc_height" format="dimension"/> <!--弧度的高度-->

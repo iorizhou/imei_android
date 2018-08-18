@@ -38,7 +38,7 @@ public class ImeiApplication extends Application{
         initImageLoader();
         initPictureOptions();
         initOkHttp();
-        CrashHandler.getInstance().init(getApplicationContext());
+//        CrashHandler.getInstance().init(getApplicationContext());
         sInstance = this;
     }
 

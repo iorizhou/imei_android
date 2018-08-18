@@ -1,0 +1,82 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/iorizhou/imei_android/PagingListView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/iorizhou/imei_android/PagingListView/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,4,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "113,171,55",
+                        "endColumns": "57,55,57",
+                        "endOffsets": "166,222,108"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,113,169",
+                        "endColumns": "57,55,57",
+                        "endOffsets": "108,164,222"
+                    }
+                },
+                {
+                    "source": "/Users/iorizhou/imei_android/PagingListView/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "227",
+                        "endColumns": "44",
+                        "endOffsets": "267"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/iorizhou/imei_android/PagingListView/build/intermediates/res/merged/release/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/iorizhou/imei_android/PagingListView/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,4,2",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "113,171,55",
+                        "endColumns": "57,55,57",
+                        "endOffsets": "166,222,108"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,113,169",
+                        "endColumns": "57,55,57",
+                        "endOffsets": "108,164,222"
+                    }
+                },
+                {
+                    "source": "/Users/iorizhou/imei_android/PagingListView/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "227",
+                        "endColumns": "44",
+                        "endOffsets": "267"
+                    }
+                }
+            ]
+        }
+    ]
+}

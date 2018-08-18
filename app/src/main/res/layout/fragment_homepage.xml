@@ -1,32 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:zsr="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <com.imei666.android.mvp.view.DragScrollDetailsLayout
+        android:id="@+id/drag_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical"
+        >
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     xmlns:zsr="http://schemas.android.com/apk/res-auto"
-    android:layout_height="match_parent">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:id="@+id/banner_layout"
+        android:layout_height="200dp">
         <com.zhengsr.viewpagerlib.view.BannerViewPager
             android:id="@+id/loop_viewpager_arc"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
             android:clipChildren="false"
             zsr:banner_isloop="true"
-            zsr:banner_switchtime="600" />
+            zsr:banner_looptime="4000"
+            zsr:banner_switchtime="1500" />
 
-        <com.zhengsr.viewpagerlib.indicator.ZoomIndicator
+        <com.zhengsr.viewpagerlib.indicator.TransIndicator
             android:id="@+id/bottom_zoom_arc"
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            android:layout_gravity="bottom|right"
-            android:layout_marginRight="20dp"
-            android:gravity="center"
-            zsr:zoom_alpha_min="0.5"
-            zsr:zoom_leftmargin="10dp"
-            zsr:zoom_max="1.5"
-            zsr:zoom_selector="@drawable/bottom_circle" />
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            zsr:trans_leftmargin="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            zsr:trans_movecolor="@color/colorAccent"
+            zsr:trans_defaultcolor="@color/gray_cccc"
+            zsr:trans_type="circle"
+            zsr:trans_width="5dp"
+            zsr:trans_height="5dp"
+            zsr:trans_dismiss_open="true"
+            android:orientation="horizontal"/>
 
     </RelativeLayout>
-</RelativeLayout>
+    <com.imei666.android.mvp.view.MyGridView
+        android:id="@+id/staggeredGridView1"
+        android:numColumns="5"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
+        android:layout_below="@+id/banner_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            >
+        <com.zhengsr.viewpagerlib.indicator.TabIndicator
+            android:id="@+id/line_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/gray_cccc"
+            app:tab_color="@color/colorAccent"
+            app:tab_width="50dp"
+            app:tab_height="2dp"
+            app:tab_text_default_color="@color/black_ff"
+            app:tab_text_change_color="@color/colorAccent"
+            app:tab_show="false"
+            app:tab_text_type="colortext"
+            app:tab_textsize="18sp"
+            app:visiabel_size="6"
+            android:layout_below="@+id/staggeredGridView1"
+            />
+        </HorizontalScrollView>
+
+        <com.imei666.android.mvp.view.MyViewPager
+            android:id="@+id/viewpager"
+            android:layout_below="@+id/line_indicator"
+            android:layout_marginTop="3dp"
+            android:layout_width="match_parent"
+            android:background="@color/gray_cccc"
+            android:layout_height="wrap_content"/>
+
+
+</com.imei666.android.mvp.view.DragScrollDetailsLayout>
+</LinearLayout>

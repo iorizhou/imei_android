@@ -8,4 +8,8 @@ public class URLConstants {
     public static final String GET_TOP_BANNER = HOST + "/banner/getTopBanner";
     //1.3首页显示的项目分类名称列表 (top顶级分类名称)
     public static final String GET_TOP_RECOMMEND_ITEM = HOST + "/type/getTopRecommendItem";
+    //首页  获取日记分类列表
+    public static final String GET_DIARY_TYPE = HOST + "/diary/getAllDiaryTypes";
+    //根据日记TYPE ID获取日记list
+    public static final String GET_DIARYLIST_BY_TYPEID = HOST + "/diary/getDiaryListByType";
 }

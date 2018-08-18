@@ -10,4 +10,5 @@
     <color name="white">#ffffff</color>
     <color name="white_ff">#b0f1ffff</color>
     <color name="black_ff">#b01a1a1a</color>
+    <color name="gray_cccc">#a0f3ecec</color><!--灰色cc -->
 </resources>
