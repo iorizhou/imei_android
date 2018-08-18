@@ -140,7 +140,6 @@
         <com.imei666.android.mvp.view.MyViewPager
             android:id="@+id/viewpager"
             android:layout_below="@+id/line_indicator"
-            android:layout_marginTop="3dp"
             android:layout_width="match_parent"
             android:background="@color/gray_cccc"
             android:layout_height="wrap_content"/>

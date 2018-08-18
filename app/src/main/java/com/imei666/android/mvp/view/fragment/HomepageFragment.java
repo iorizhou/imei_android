@@ -139,30 +139,32 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
     private void initBannerView(){
         mPageBean = new PageBean.Builder<Banner>().setDataObjects(mBannerList).setIndicator(mViewPagerIndicator).builder();
         mViewPager.setPageTransformer(false,new ZoomOutPageTransformer());
-        mViewPager.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Toasty.info(getActivity(), "点击了", Toast.LENGTH_SHORT, true).show();
-            }
-        });
         mViewPager.setPageListener(mPageBean, R.layout.loop_layout, new PageHelperListener() {
             @Override
             public void getItemView(View view, Object data) {
                 ImageView imageView = view.findViewById(R.id.loop_icon);
-                Banner bean = (Banner) data;
+                final Banner bean = (Banner) data;
                 //imageloader加载图片
                 mImageLoader.displayImage(bean.getPicUrl(),imageView);
                 TextView textView = view.findViewById(R.id.loop_text);
                 textView.setText(bean.getName());
 
-                //如若你要设置点击事件，也可以直接通过这个view 来设置，或者图片的更新等等
-                //TO-DO 跳转至不同的逻辑
-//                imageView.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View view) {
-//
-//                    }
-//                });
+                view.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        if (bean.getJumpType()==0){
+                            Bundle bundle = new Bundle();
+                            bundle.putString("url",bean.getJumpUrl());
+                            bundle.putString("title",bean.getName());
+                            //跳转H5
+                            openWebViewActivity(getActivity(),bundle);
+                        }else {
+                            Toasty.info(getActivity(), "scheme跳转到native页面", Toast.LENGTH_SHORT, true).show();
+                        }
+
+
+                    }
+                });
 
             }
         });
