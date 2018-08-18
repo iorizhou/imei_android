@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     xmlns:zsr="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    >
+    tools:context=".activity.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
 
 
     <com.imei666.android.mvp.view.DragScrollDetailsLayout
@@ -18,7 +18,9 @@
         android:background="@color/white"
         android:orientation="vertical"
         >
-
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -65,7 +67,53 @@
         android:layout_below="@+id/banner_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/activity_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="150dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:id="@+id/activity1"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            />
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/activity2"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:id="@+id/activity3"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
 </LinearLayout>
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
         <HorizontalScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -96,7 +144,7 @@
             android:layout_width="match_parent"
             android:background="@color/gray_cccc"
             android:layout_height="wrap_content"/>
-
+        </LinearLayout>
 
 </com.imei666.android.mvp.view.DragScrollDetailsLayout>
-</LinearLayout>
+</RelativeLayout>

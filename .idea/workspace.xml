@@ -14,1008 +14,16 @@
     <list default="true" id="fd6ea107-0e57-4c4d-aa33-1f9cf666c4ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_rc01_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_rc01_jar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_rc01.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__de_keyboardsurfer_android_widget_crouton_1_8_5.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/ImeiApplication.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/ImeiApplication.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/net/HttpPostTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/net/HttpPostTask.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_homepage.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_homepage.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build.gradle" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/mockable-android-28.v3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/buildConfig/debug/com/origamilabs/library/BuildConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/buildConfig/release/com/origamilabs/library/BuildConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/arch/core/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/arch/lifecycle/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/arch/lifecycle/livedata/core/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/arch/lifecycle/viewmodel/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/asynclayoutinflater/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/compat/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/coordinatorlayout/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/coreui/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/coreutils/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/cursoradapter/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/customview/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/documentfile/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/drawerlayout/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/fragment/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/interpolator/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/loader/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/localbroadcastmanager/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/mediacompat/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/print/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/slidingpanelayout/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/swiperefreshlayout/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/v4/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/android/support/v7/viewpager/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/androidx/versionedparcelable/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/debug/com/origamilabs/library/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/arch/core/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/arch/lifecycle/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/arch/lifecycle/livedata/core/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/arch/lifecycle/viewmodel/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/asynclayoutinflater/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/compat/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/coordinatorlayout/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/coreui/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/coreutils/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/cursoradapter/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/customview/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/documentfile/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/drawerlayout/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/fragment/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/interpolator/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/loader/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/localbroadcastmanager/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/mediacompat/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/print/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/slidingpanelayout/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/swiperefreshlayout/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/v4/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/android/support/v7/viewpager/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/androidx/versionedparcelable/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/generated/source/r/release/com/origamilabs/library/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/attr/R.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-af.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-am.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ar.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-as.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-az.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-b+sr+Latn.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-be.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-bg.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-bn.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-bs.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ca.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-cs.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-da.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-de.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-el.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-en-rAU.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-en-rCA.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-en-rGB.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-en-rIN.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-en-rXC.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-es-rUS.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-es.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-et.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-eu.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-fa.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-fi.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-fr-rCA.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-fr.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-gl.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-gu.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-hi.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-hr.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-hu.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-hy.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-in.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-is.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-it.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-iw.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ja.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ka.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-kk.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-km.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-kn.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ko.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ky.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-lo.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-lt.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-lv.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-mk.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ml.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-mn.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-mr.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ms.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-my.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-nb.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ne.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-nl.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-or.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-pa.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-pl.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-pt-rBR.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-pt-rPT.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-pt.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ro.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ru.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-si.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-sk.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-sl.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-sq.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-sr.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-sv.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-sw.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ta.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-te.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-th.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-tl.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-tr.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-uk.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-ur.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-uz.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-v16.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-v21.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-v24.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-vi.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-zh-rCN.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-zh-rHK.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-zh-rTW.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values-zu.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/multi-v2/values.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/single/drawable-hdpi-v4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/single/drawable-mdpi-v4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/single/drawable-v21.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/single/drawable-xhdpi-v4.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/single/drawable.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/single/layout-v21.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/blame/res/release/single/layout.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/arch/core/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/arch/lifecycle/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/arch/lifecycle/livedata/core/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/arch/lifecycle/viewmodel/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/asynclayoutinflater/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/asynclayoutinflater/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/compat/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/compat/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/compat/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/compat/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/compat/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/compat/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/compat/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/compat/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/compat/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/compat/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/compat/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coordinatorlayout/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coordinatorlayout/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coordinatorlayout/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coordinatorlayout/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coordinatorlayout/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coordinatorlayout/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coordinatorlayout/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coordinatorlayout/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coordinatorlayout/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coordinatorlayout/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coordinatorlayout/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreui/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreui/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreui/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreui/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreui/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreui/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreui/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreui/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreui/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreui/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreui/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreutils/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreutils/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreutils/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreutils/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreutils/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreutils/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreutils/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreutils/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreutils/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreutils/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/coreutils/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/cursoradapter/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/customview/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/customview/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/customview/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/customview/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/customview/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/customview/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/customview/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/customview/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/customview/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/customview/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/customview/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/documentfile/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/drawerlayout/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/drawerlayout/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/drawerlayout/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/drawerlayout/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/drawerlayout/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/drawerlayout/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/drawerlayout/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/drawerlayout/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/drawerlayout/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/drawerlayout/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/drawerlayout/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/fragment/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/fragment/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/fragment/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/fragment/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/fragment/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/fragment/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/fragment/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/fragment/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/fragment/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/fragment/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/fragment/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/interpolator/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/loader/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/loader/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/loader/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/loader/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/loader/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/loader/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/loader/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/loader/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/loader/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/loader/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/loader/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/localbroadcastmanager/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/mediacompat/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/mediacompat/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/mediacompat/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/mediacompat/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/mediacompat/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/mediacompat/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/mediacompat/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/mediacompat/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/mediacompat/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/mediacompat/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/mediacompat/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/print/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/slidingpanelayout/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/slidingpanelayout/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/slidingpanelayout/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/slidingpanelayout/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/slidingpanelayout/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/slidingpanelayout/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/slidingpanelayout/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/slidingpanelayout/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/slidingpanelayout/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/slidingpanelayout/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/slidingpanelayout/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/swiperefreshlayout/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/swiperefreshlayout/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v4/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v4/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v4/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v4/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v4/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v4/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v4/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v4/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v4/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v4/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v4/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v7/viewpager/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v7/viewpager/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v7/viewpager/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v7/viewpager/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v7/viewpager/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v7/viewpager/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v7/viewpager/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v7/viewpager/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v7/viewpager/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v7/viewpager/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/android/support/v7/viewpager/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/androidx/versionedparcelable/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/BuildConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/ScrollerCompat$ScrollerCompatImplIcs.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/ScrollerCompat.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/ScrollerCompatIcs.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$AdapterContextMenuInfo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$AdapterDataSetObserver.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$CheckForLongPress.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$CheckForTap.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$ColMap$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$ColMap.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$LayoutParams.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$LayoutRecord.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$OnItemClickListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$OnItemLongClickListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$PerformClick.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$RecycleBin.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$SavedState$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$SavedState.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$SelectionBoundsAdjuster.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView$WindowRunnnable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/debug/com/origamilabs/library/views/StaggeredGridView.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/arch/core/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/arch/lifecycle/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/arch/lifecycle/livedata/core/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/arch/lifecycle/viewmodel/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/asynclayoutinflater/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/asynclayoutinflater/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/asynclayoutinflater/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/asynclayoutinflater/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/asynclayoutinflater/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/asynclayoutinflater/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/asynclayoutinflater/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/asynclayoutinflater/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/asynclayoutinflater/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/asynclayoutinflater/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/asynclayoutinflater/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/compat/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/compat/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/compat/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/compat/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/compat/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/compat/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/compat/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/compat/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/compat/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/compat/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/compat/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coordinatorlayout/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coordinatorlayout/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coordinatorlayout/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coordinatorlayout/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coordinatorlayout/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coordinatorlayout/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coordinatorlayout/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coordinatorlayout/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coordinatorlayout/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coordinatorlayout/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coordinatorlayout/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreui/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreui/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreui/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreui/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreui/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreui/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreui/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreui/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreui/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreui/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreui/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreutils/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreutils/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreutils/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreutils/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreutils/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreutils/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreutils/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreutils/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreutils/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreutils/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/coreutils/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/cursoradapter/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/customview/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/customview/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/customview/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/customview/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/customview/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/customview/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/customview/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/customview/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/customview/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/customview/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/customview/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/documentfile/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/drawerlayout/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/drawerlayout/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/drawerlayout/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/drawerlayout/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/drawerlayout/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/drawerlayout/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/drawerlayout/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/drawerlayout/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/drawerlayout/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/drawerlayout/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/drawerlayout/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/fragment/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/fragment/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/fragment/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/fragment/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/fragment/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/fragment/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/fragment/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/fragment/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/fragment/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/fragment/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/fragment/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/interpolator/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/loader/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/loader/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/loader/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/loader/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/loader/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/loader/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/loader/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/loader/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/loader/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/loader/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/loader/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/localbroadcastmanager/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/mediacompat/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/mediacompat/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/mediacompat/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/mediacompat/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/mediacompat/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/mediacompat/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/mediacompat/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/mediacompat/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/mediacompat/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/mediacompat/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/mediacompat/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/print/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/slidingpanelayout/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/slidingpanelayout/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/slidingpanelayout/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/slidingpanelayout/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/slidingpanelayout/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/slidingpanelayout/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/slidingpanelayout/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/slidingpanelayout/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/slidingpanelayout/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/slidingpanelayout/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/slidingpanelayout/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/swiperefreshlayout/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/swiperefreshlayout/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/swiperefreshlayout/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/swiperefreshlayout/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/swiperefreshlayout/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/swiperefreshlayout/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/swiperefreshlayout/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/swiperefreshlayout/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/swiperefreshlayout/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/swiperefreshlayout/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/swiperefreshlayout/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v4/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v4/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v4/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v4/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v4/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v4/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v4/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v4/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v4/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v4/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v4/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v7/viewpager/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v7/viewpager/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v7/viewpager/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v7/viewpager/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v7/viewpager/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v7/viewpager/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v7/viewpager/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v7/viewpager/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v7/viewpager/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v7/viewpager/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/android/support/v7/viewpager/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/androidx/versionedparcelable/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/BuildConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/R$attr.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/R$color.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/R$drawable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/R$integer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/R$style.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/R$styleable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/ScrollerCompat$ScrollerCompatImplIcs.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/ScrollerCompat.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/ScrollerCompatIcs.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$AdapterContextMenuInfo.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$AdapterDataSetObserver.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$CheckForLongPress.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$CheckForTap.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$ColMap$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$ColMap.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$LayoutParams.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$LayoutRecord.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$OnItemClickListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$OnItemLongClickListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$PerformClick.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$RecycleBin.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$SavedState$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$SavedState.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$SelectionBoundsAdjuster.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView$WindowRunnnable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/classes/release/com/origamilabs/library/views/StaggeredGridView.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/extractedTypedefs/debug/typedefs.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/extractedTypedefs/release/typedefs.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/compileDebugAidl/dependency.store" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-af/values-af.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-am/values-am.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-as/values-as.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-az/values-az.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-be/values-be.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-bg/values-bg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-bn/values-bn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-bs/values-bs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-da/values-da.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-de/values-de.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-el/values-el.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rCA/values-en-rCA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rXC/values-en-rXC.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-et/values-et.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-eu/values-eu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fa/values-fa.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fi/values-fi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-gl/values-gl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-gu/values-gu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hi/values-hi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hr/values-hr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hu/values-hu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hy/values-hy.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-in/values-in.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-is/values-is.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-it/values-it.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-iw/values-iw.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ka/values-ka.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-kk/values-kk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-km/values-km.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-kn/values-kn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ky/values-ky.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-lo/values-lo.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-lt/values-lt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-lv/values-lv.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-mk/values-mk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ml/values-ml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-mn/values-mn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-mr/values-mr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ms/values-ms.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-my/values-my.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ne/values-ne.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-or/values-or.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pa/values-pa.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt/values-pt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ro/values-ro.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-si/values-si.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sk/values-sk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sl/values-sl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sq/values-sq.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sr/values-sr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sv/values-sv.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw/values-sw.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ta/values-ta.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-te/values-te.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-th/values-th.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-tl/values-tl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-tr/values-tr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-uk/values-uk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ur/values-ur.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-uz/values-uz.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v16/values-v16.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v24/values-v24.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zu/values-zu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/packageDebugAssets/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/packageDebugResources/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/packageReleaseAssets/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/release-mergeJavaRes/merge-state" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/incremental/release-mergeJniLibs/merge-state" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/intermediate-jars/debug/classes.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/intermediate-jars/debug/res.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/intermediate-jars/release/classes.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/intermediate-jars/release/res.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/javaPrecompile/debug/annotationProcessors.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/javaPrecompile/release/annotationProcessors.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/javaPrecompile/test/debug/annotationProcessors.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/javaPrecompile/test/release/annotationProcessors.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/manifests/aapt/debug/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/manifests/aapt/debug/output.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/manifests/aapt/release/output.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/manifests/full/debug/output.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/manifests/full/release/output.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/packaged-classes/debug/classes.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/packaged-classes/release/classes.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/packaged_res/debug/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/packaged_res/release/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-hdpi-v4_notification_bg_normal.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-mdpi-v4_notification_bg_normal.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-v21_notification_action_background.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-xhdpi-v4_notification_bg_normal.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable_notification_bg.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable_notification_bg_low.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable_notification_icon_background.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/drawable_notification_tile_bg.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout-v21_notification_action.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout-v21_notification_action_tombstone.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout-v21_notification_template_custom_big.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout-v21_notification_template_icon_group.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout_notification_media_action.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout_notification_media_cancel_action.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout_notification_template_big_media.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout_notification_template_big_media_custom.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout_notification_template_big_media_narrow.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout_notification_template_big_media_narrow_custom.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout_notification_template_lines_media.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout_notification_template_media.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout_notification_template_media_custom.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout_notification_template_part_chronometer.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/layout_notification_template_part_time.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-af_values-af.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-am_values-am.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ar_values-ar.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-as_values-as.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-az_values-az.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-be_values-be.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-bg_values-bg.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-bn_values-bn.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-bs_values-bs.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ca_values-ca.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-cs_values-cs.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-da_values-da.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-de_values-de.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-el_values-el.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-en-rAU_values-en-rAU.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-en-rCA_values-en-rCA.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-en-rGB_values-en-rGB.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-en-rIN_values-en-rIN.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-en-rXC_values-en-rXC.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-es-rUS_values-es-rUS.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-es_values-es.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-et_values-et.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-eu_values-eu.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-fa_values-fa.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-fi_values-fi.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-fr-rCA_values-fr-rCA.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-fr_values-fr.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-gl_values-gl.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-gu_values-gu.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-hi_values-hi.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-hr_values-hr.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-hu_values-hu.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-hy_values-hy.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-in_values-in.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-is_values-is.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-it_values-it.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-iw_values-iw.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ja_values-ja.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ka_values-ka.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-kk_values-kk.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-km_values-km.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-kn_values-kn.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ko_values-ko.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ky_values-ky.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-lo_values-lo.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-lt_values-lt.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-lv_values-lv.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-mk_values-mk.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ml_values-ml.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-mn_values-mn.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-mr_values-mr.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ms_values-ms.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-my_values-my.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-nb_values-nb.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ne_values-ne.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-nl_values-nl.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-or_values-or.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-pa_values-pa.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-pl_values-pl.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-pt-rBR_values-pt-rBR.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-pt-rPT_values-pt-rPT.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-pt_values-pt.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ro_values-ro.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ru_values-ru.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-si_values-si.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-sk_values-sk.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-sl_values-sl.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-sq_values-sq.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-sr_values-sr.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-sv_values-sv.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-sw_values-sw.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ta_values-ta.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-te_values-te.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-th_values-th.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-tl_values-tl.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-tr_values-tr.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-uk_values-uk.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-ur_values-ur.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-uz_values-uz.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-v16_values-v16.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-v21_values-v21.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-v24_values-v24.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-vi_values-vi.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-zh-rCN_values-zh-rCN.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-zh-rHK_values-zh-rHK.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-zh-rTW_values-zh-rTW.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values-zu_values-zu.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/compiled/release/values_values.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_low_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-mdpi-v4/notification_bg_normal_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-mdpi-v4/notify_panel_notification_icon_bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_low_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable/notification_bg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable/notification_bg_low.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable/notification_icon_background.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/drawable/notification_tile_bg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout-v21/notification_action.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout/notification_media_action.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout/notification_media_cancel_action.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout/notification_template_big_media.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout/notification_template_big_media_custom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout/notification_template_big_media_narrow_custom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout/notification_template_lines_media.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout/notification_template_media.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout/notification_template_media_custom.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/layout/notification_template_part_time.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-af/values-af.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-am/values-am.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ar/values-ar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-as/values-as.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-az/values-az.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-be/values-be.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-bg/values-bg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-bn/values-bn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-bs/values-bs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ca/values-ca.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-cs/values-cs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-da/values-da.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-de/values-de.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-el/values-el.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-en-rAU/values-en-rAU.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-en-rCA/values-en-rCA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-en-rGB/values-en-rGB.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-en-rIN/values-en-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-en-rXC/values-en-rXC.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-es-rUS/values-es-rUS.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-es/values-es.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-et/values-et.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-eu/values-eu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-fa/values-fa.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-fi/values-fi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-fr/values-fr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-gl/values-gl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-gu/values-gu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-hi/values-hi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-hr/values-hr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-hu/values-hu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-hy/values-hy.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-in/values-in.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-is/values-is.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-it/values-it.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-iw/values-iw.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ja/values-ja.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ka/values-ka.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-kk/values-kk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-km/values-km.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-kn/values-kn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ko/values-ko.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ky/values-ky.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-lo/values-lo.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-lt/values-lt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-lv/values-lv.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-mk/values-mk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ml/values-ml.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-mn/values-mn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-mr/values-mr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ms/values-ms.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-my/values-my.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-nb/values-nb.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ne/values-ne.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-nl/values-nl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-or/values-or.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-pa/values-pa.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-pl/values-pl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-pt/values-pt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ro/values-ro.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ru/values-ru.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-si/values-si.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-sk/values-sk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-sl/values-sl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-sq/values-sq.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-sr/values-sr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-sv/values-sv.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-sw/values-sw.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ta/values-ta.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-te/values-te.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-th/values-th.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-tl/values-tl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-tr/values-tr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-uk/values-uk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-ur/values-ur.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-uz/values-uz.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-v16/values-v16.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-v21/values-v21.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-v24/values-v24.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-vi/values-vi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values-zu/values-zu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/merged/release/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/symbols/debug/R.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/symbols/release/R.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/transforms/mergeJavaRes/release/0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/transforms/mergeJavaRes/release/__content__.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/intermediates/transforms/mergeJniLibs/release/__content__.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/outputs/aar/staggeredGridView-debug.aar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/outputs/aar/staggeredGridView-release.aar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/outputs/logs/manifest-merger-release-report.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/reports/lint-results.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/build/reports/lint-results.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/src/main/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/src/main/java/com/origamilabs/library/views/ScrollerCompat.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/src/main/java/com/origamilabs/library/views/ScrollerCompatIcs.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/src/main/java/com/origamilabs/library/views/StaggeredGridView.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/src/main/res/values/attrs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/staggeredGridView/staggeredGridView.iml" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -1038,67 +46,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomepageFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomepageFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="196" column="63" lean-forward="false" selection-start-line="196" selection-start-column="63" selection-end-line="196" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FragmentAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/FragmentAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiaryListFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="10" />
+              <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
               <folding>
-                <element signature="e#5991#6146#0" expanded="true" />
-                <element signature="e#6145#6146#0" expanded="true" />
+                <element signature="e#2387#2400#0" expanded="true" />
+                <element signature="e#7013#7029#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DragDetailFragmentPagerAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/DragDetailFragmentPagerAdapter.java">
+      <file leaf-file-name="URLConstants.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="225">
+              <caret line="15" column="94" lean-forward="false" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="38" column="68" lean-forward="false" selection-start-line="38" selection-start-column="68" selection-end-line="38" selection-end-column="68" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_homepage.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fragment_homepage.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_homepage.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="275">
+              <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -1129,6 +107,8 @@
       <find>diary</find>
       <find>diarylis</find>
       <find>mTypeGridView</find>
+      <find>homepa</find>
+      <find>initac</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -4495,7 +3475,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/StartActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/BaseFragmentActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
@@ -4523,7 +3502,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/DiaryTypeDTO.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/DiaryDTO.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_diary.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/DateUtil.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/DiaryListAdapter.java" />
@@ -4542,10 +3520,12 @@
         <option value="$PROJECT_DIR$/PagingListView/src/main/java/com/paging/listview/PagingListView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/MyGridView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/FragmentAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_diarylist.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/ActivityDTO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_homepage.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java" />
       </list>
     </option>
   </component>
@@ -4688,6 +3668,33 @@
               <item name="imei666" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
               <item name="mvp" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imei666" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="mvp" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imei666" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="mvp" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -4754,7 +3761,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_homepage.xml&#10;build.gr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;diarylis&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;fragment_d&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_diarylist.xml&#10;homepage&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_homepage.xml&#10;build.g&#9;FILE&#9;file:///Users/iorizhou/imei_android/build.gradle&#10;build.&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;homepa&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;gradle-wra&#9;FILE&#9;file:///Users/iorizhou/imei_android/gradle/wrapper/gradle-wrapper.properties&#10;pagingli&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;diarylistfr&#9;PSI&#9;JAVA://com.imei666.android.mvp.view.fragment.DiaryListFragment&#10;diaryli&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;paginli&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;diary&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;di&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;paginglist.java&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;build.gra&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;setting&#9;FILE&#9;file:///Users/iorizhou/imei_android/settings.gradle&#10;home&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;color&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/values/colors.xml&#10;typedto&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/TypeDTO.java&#10;page&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;imei&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/ImeiApplication.java&#10;build.gradle&#9;FILE&#9;file:///Users/iorizhou/imei_android/staggeredGridView/build.gradle&#10;androidma&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/AndroidManifest.xml&#10;imeiappl&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/ImeiApplication.java&#10;build&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;strings.xml&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/values/strings.xml&#10;androidmani&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/AndroidManifest.xml&#10;build.grad&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle" />
+    <property name="SearchEverywhereHistoryKey" value="home&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_homepage.xml&#10;homepa&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;build.gr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;diarylis&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;fragment_d&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_diarylist.xml&#10;homepage&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_homepage.xml&#10;build.g&#9;FILE&#9;file:///Users/iorizhou/imei_android/build.gradle&#10;build.&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;gradle-wra&#9;FILE&#9;file:///Users/iorizhou/imei_android/gradle/wrapper/gradle-wrapper.properties&#10;pagingli&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;diarylistfr&#9;PSI&#9;JAVA://com.imei666.android.mvp.view.fragment.DiaryListFragment&#10;diaryli&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;paginli&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;diary&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;di&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;paginglist.java&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;build.gra&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;setting&#9;FILE&#9;file:///Users/iorizhou/imei_android/settings.gradle&#10;color&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/values/colors.xml&#10;typedto&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/TypeDTO.java&#10;page&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;imei&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/ImeiApplication.java&#10;build.gradle&#9;FILE&#9;file:///Users/iorizhou/imei_android/staggeredGridView/build.gradle&#10;androidma&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/AndroidManifest.xml&#10;imeiappl&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/ImeiApplication.java&#10;build&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;strings.xml&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/values/strings.xml&#10;androidmani&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/AndroidManifest.xml&#10;build.grad&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle" />
     <property name="DEBUGGABLE_DEVICE" value="xiaomi-mi_5-b5391644" />
     <property name="DEBUGGABLE_PROCESS" value="com.imei666.android" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -4772,11 +3779,11 @@
       <recent name="com.imei666.android.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view" />
       <recent name="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils" />
       <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
-      <recent name="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -4992,7 +3999,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1417" height="796" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -5009,7 +4015,7 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26763636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29018182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.111269616" sideWeight="0.49745455" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -5049,9 +4055,9 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952926" sideWeight="0.49745455" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.49745455" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26763636" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29018182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -5066,7 +4072,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java</url>
-          <line>152</line>
+          <line>162</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -5075,7 +4081,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/staggeredGridView/build.gradle" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/ImeiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -5143,13 +4148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/TypeDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/BaseFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -5193,25 +4191,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/GridViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="62" column="47" lean-forward="false" selection-start-line="62" selection-start-column="47" selection-end-line="62" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/DiaryDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5354,16 +4337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/StickyNavLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/DragScrollDetailsLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
@@ -5382,33 +4355,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/MyViewPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/MyGridView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#240#241#0" expanded="false" />
-            <element signature="e#277#278#0" expanded="false" />
-            <element signature="e#319#320#0" expanded="false" />
-            <element signature="e#349#350#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5436,21 +4387,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="196" column="63" lean-forward="false" selection-start-line="196" selection-start-column="63" selection-end-line="196" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="10" />
           <folding>
-            <element signature="e#5991#6146#0" expanded="true" />
-            <element signature="e#6145#6146#0" expanded="true" />
+            <element signature="e#5991#6146#0" expanded="false" />
+            <element signature="e#6145#6146#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5482,14 +4425,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/MyGridView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/MyViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/ActivityDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/StickyNavLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/TypeDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/GridViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21">
+          <caret line="30" column="11" lean-forward="false" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="94" lean-forward="false" selection-start-line="15" selection-start-column="94" selection-end-line="15" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_homepage.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="275">
+          <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="202" column="0" lean-forward="false" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+          <folding>
+            <element signature="e#2387#2400#0" expanded="true" />
+            <element signature="e#7013#7029#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

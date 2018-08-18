@@ -10,12 +10,14 @@ import android.view.ViewGroup;
 import android.widget.AbsListView;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.imei666.android.R;
+import com.imei666.android.mvp.model.dto.ActivityDTO;
 import com.imei666.android.mvp.model.dto.Banner;
 import com.imei666.android.mvp.model.dto.DiaryTypeDTO;
 import com.imei666.android.mvp.model.dto.TypeDTO;
@@ -24,6 +26,7 @@ import com.imei666.android.net.HttpPostTask;
 import com.imei666.android.utils.URLConstants;
 import com.imei666.android.utils.adapter.FragmentAdapter;
 import com.imei666.android.utils.adapter.GridViewAdapter;
+import com.nostra13.universalimageloader.core.ImageLoader;
 import com.zhengsr.viewpagerlib.anim.ZoomOutPageTransformer;
 import com.zhengsr.viewpagerlib.bean.PageBean;
 import com.zhengsr.viewpagerlib.callback.PageHelperListener;
@@ -51,8 +54,15 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
     private List<DiaryTypeDTO> mDiaryTypeList = new ArrayList<DiaryTypeDTO>();
     private List<String> mDiaryTypeNameList = new ArrayList<String>();
     private List<DiaryListFragment> mDiaryListFragment = new ArrayList<DiaryListFragment>();
-
-
+    private List<ActivityDTO> mActivityList = new ArrayList<ActivityDTO>();
+    @BindView(R.id.activity1)
+    ImageView mActivity1;
+    @BindView(R.id.activity2)
+    ImageView mActivity2;
+    @BindView(R.id.activity3)
+    ImageView mActivity3;
+    @BindView(R.id.activity_layout)
+    LinearLayout mActivityLayout;
     @BindView(R.id.loop_viewpager_arc)
     BannerViewPager mViewPager;
     @BindView(R.id.bottom_zoom_arc)
@@ -109,8 +119,8 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
                     return;
                 }
                 Log.i(TAG,"datas = "+jsonObject.getString("datas"));
-                mTypeList = JSON.parseArray(jsonObject.getString("datas"),TypeDTO.class);
-
+                List<TypeDTO> list = JSON.parseArray(jsonObject.getString("datas"),TypeDTO.class);
+                mTypeList.addAll(list);
                 Log.i(TAG,"mTypeList"+mTypeList.size());
                 initTypeGrid();
 
@@ -156,6 +166,50 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
 
             }
         });
+    }
+
+    private void requestActivity(){
+        Map<String,String> paramMap = new HashMap<String, String>();
+        new HttpPostTask().doPost(URLConstants.GET_HOMEPAGE_ACTIVITY, paramMap, new StringCallback() {
+            @Override
+            public void onError(Call call, Exception e, int id) {
+                Log.i(TAG,"error = "+e.getMessage());
+                Toasty.error(getActivity(), "获取活动失败，请稍候重试", Toast.LENGTH_SHORT, true).show();
+            }
+
+            @Override
+            public void onResponse(String response, int id) {
+                JSONObject jsonObject = JSONObject.parseObject(response);
+                if (!jsonObject.getString("msgCode").equals("0")){
+                    Toasty.error(getActivity(), "获取活动失败:"+jsonObject.getString("msg")+"，请稍候重试", Toast.LENGTH_SHORT, true).show();
+                    return;
+                }
+                mActivityList.clear();
+                mActivityList = JSON.parseArray(jsonObject.getString("datas"),ActivityDTO.class);
+                Log.i(TAG,"mActivityList.size = "+mActivityList.size());
+
+                initActivityView();
+            }
+        });
+    }
+
+    private void initActivityView(){
+        if (mActivityList!=null && mActivityList.size()>0){
+            mActivityLayout.setVisibility(View.VISIBLE);
+            ImageLoader.getInstance().displayImage(mActivityList.get(0).getPicUrl(),mActivity1);
+            mActivity1.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+
+                }
+            });
+            if (mActivityList.size()>1){
+                ImageLoader.getInstance().displayImage(mActivityList.get(1).getPicUrl(),mActivity2);
+            }
+            if (mActivityList.size()>2){
+                ImageLoader.getInstance().displayImage(mActivityList.get(2).getPicUrl(),mActivity3);
+            }
+        }
     }
 
     private void requestDiaryType(){
@@ -211,6 +265,13 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
         super.onCreateView(inflater, container, savedInstanceState);
         View view = inflater.inflate(R.layout.fragment_homepage,container,false);
         ButterKnife.bind(this, view);
+        //type先加一个全部项目
+        TypeDTO typeDTO = new TypeDTO();
+        typeDTO.setId(0);
+        typeDTO.setName("全部项目");
+        typeDTO.setPicUrl("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534625361608&di=c7311ab113abb54c4dab31af2538d5c0&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D11b43609f7faaf5190ee89fce43dfe9b%2Ff2deb48f8c5494ee2fb0913627f5e0fe99257e0b.jpg");
+        mTypeList.add(typeDTO);
+
 //        initBannerView();
 //        initTypeGrid();
         return view;
@@ -223,6 +284,7 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
         requestBanners();
         requestType();
         requestDiaryType();
+        requestActivity();
     }
 
     @Override

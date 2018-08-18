@@ -12,4 +12,6 @@ public class URLConstants {
     public static final String GET_DIARY_TYPE = HOST + "/diary/getAllDiaryTypes";
     //根据日记TYPE ID获取日记list
     public static final String GET_DIARYLIST_BY_TYPEID = HOST + "/diary/getDiaryListByType";
+    //首页活动
+    public static final String GET_HOMEPAGE_ACTIVITY = HOST + "/activity/getHomepageActivity";
 }
