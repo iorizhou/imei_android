@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AbsListView;
+import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -73,10 +74,26 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
     TabIndicator mDiaryTypeIndicator;
     @BindView(R.id.viewpager)
     MyViewPager mDiaryViewPager;
+    @BindView(R.id.city)
+    TextView mCityTextView;
+    @BindView(R.id.search_et)
+    TextView mSearchEditText;
 
 
-
-
+    private void initSearchBanner(){
+        mCityTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toasty.info(getActivity(),"选择城市", Toast.LENGTH_SHORT, true).show();
+            }
+        });
+        mSearchEditText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toasty.info(getActivity(),"跳转到搜索activity", Toast.LENGTH_SHORT, true).show();
+            }
+        });
+    }
     private void requestBanners(){
         Map<String,String> paramMap = new HashMap<String, String>();
         paramMap.put("city","深圳");
@@ -294,7 +311,7 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
         typeDTO.setName("全部项目");
         typeDTO.setPicUrl("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1534625361608&di=c7311ab113abb54c4dab31af2538d5c0&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D11b43609f7faaf5190ee89fce43dfe9b%2Ff2deb48f8c5494ee2fb0913627f5e0fe99257e0b.jpg");
         mTypeList.add(typeDTO);
-
+        initSearchBanner();
 //        initBannerView();
 //        initTypeGrid();
         return view;
