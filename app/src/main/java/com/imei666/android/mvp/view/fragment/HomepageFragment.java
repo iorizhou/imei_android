@@ -200,14 +200,35 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
             mActivity1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-
+                    Bundle bundle = new Bundle();
+                    bundle.putString("url",mActivityList.get(0).getJumpUrl());
+                    bundle.putString("title",mActivityList.get(0).getName());
+                    openWebViewActivity(getActivity(),bundle);
                 }
             });
             if (mActivityList.size()>1){
                 ImageLoader.getInstance().displayImage(mActivityList.get(1).getPicUrl(),mActivity2);
+                mActivity2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Bundle bundle = new Bundle();
+                        bundle.putString("url",mActivityList.get(1).getJumpUrl());
+                        bundle.putString("title",mActivityList.get(1).getName());
+                        openWebViewActivity(getActivity(),bundle);
+                    }
+                });
             }
             if (mActivityList.size()>2){
                 ImageLoader.getInstance().displayImage(mActivityList.get(2).getPicUrl(),mActivity3);
+                mActivity3.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Bundle bundle = new Bundle();
+                        bundle.putString("url",mActivityList.get(2).getJumpUrl());
+                        bundle.putString("title",mActivityList.get(2).getName());
+                        openWebViewActivity(getActivity(),bundle);
+                    }
+                });
             }
         }
     }
