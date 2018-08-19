@@ -47,6 +47,7 @@ dependencies {
     compile 'com.github.sd6352051:NiftyDialogEffects:v1.0.3'
     implementation 'com.github.GrenderG:Toasty:1.3.0'
     implementation project(':PagingListView')
+    implementation project(':citypickerview')
 }
 configurations.all {
     resolutionStrategy.eachDependency { DependencyResolveDetails details ->

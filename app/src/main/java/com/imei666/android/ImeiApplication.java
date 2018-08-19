@@ -42,6 +42,7 @@ public class ImeiApplication extends Application{
         sInstance = this;
     }
 
+
     private void initOkHttp(){
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
 //                .addInterceptor(new LoggerInterceptor("TAG"))

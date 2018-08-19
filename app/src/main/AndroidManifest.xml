@@ -29,5 +29,11 @@
         <activity android:name=".mvp.view.activity.WebViewActivity"
             android:windowSoftInputMode="adjustPan"
             android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name="com.lljjcoder.style.citylist.CityListSelectActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".mvp.view.activity.SearchActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
     </application>
 </manifest>

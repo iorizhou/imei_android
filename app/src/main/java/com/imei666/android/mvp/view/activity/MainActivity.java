@@ -1,6 +1,7 @@
 package com.imei666.android.mvp.view.activity;
 
 import android.Manifest;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -11,6 +12,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.imei666.android.R;
 import com.imei666.android.mvp.view.fragment.BaseFragment;
@@ -18,11 +20,15 @@ import com.imei666.android.mvp.view.fragment.HomepageFragment;
 import com.imei666.android.mvp.view.fragment.ItempageFragment;
 import com.imei666.android.mvp.view.fragment.MorepageFragment;
 import com.imei666.android.mvp.view.fragment.MsgpageFragment;
+import com.lljjcoder.style.citylist.CityListSelectActivity;
+import com.lljjcoder.style.citylist.bean.CityInfoBean;
+import com.lljjcoder.style.citylist.utils.CityListLoader;
 
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import es.dmoral.toasty.Toasty;
 import pub.devrel.easypermissions.AfterPermissionGranted;
 import pub.devrel.easypermissions.EasyPermissions;
 
@@ -44,11 +50,28 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
     ImageView mImg1,mImg2,mImg3,mImg4;
     FragmentManager mFragmentManager;
 
+    public void goSelectCity(){
+        Intent intent = new Intent(MainActivity.this, CityListSelectActivity.class);
+        startActivityForResult(intent, CityListSelectActivity.CITY_SELECT_RESULT_FRAG);
+    }
+
+
+
+    private void asyncInitCityData(){
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                CityListLoader.getInstance().loadCityData(MainActivity.this);
+            }
+        }).start();
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        asyncInitCityData();
         requireSomePermission();
         mLayout1 = (LinearLayout)findViewById(R.id.frag1);
         mLayout2 = (LinearLayout)findViewById(R.id.frag2);
@@ -190,5 +213,29 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         EasyPermissions.onRequestPermissionsResult(requestCode, permissions, grantResults, this);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == CityListSelectActivity.CITY_SELECT_RESULT_FRAG) {
+            if (resultCode == RESULT_OK) {
+                if (data == null) {
+                    return;
+                }
+                Bundle bundle = data.getExtras();
+
+                CityInfoBean cityInfoBean = (CityInfoBean) bundle.getParcelable("cityinfo");
+
+                if (null == cityInfoBean) {
+                    return;
+                }
+
+                HomepageFragment homepageFragment = (HomepageFragment)getSupportFragmentManager().findFragmentByTag("homepage");
+                homepageFragment.updateCity(cityInfoBean);
+
+                Toasty.info(MainActivity.this,"城市： " + cityInfoBean.getName(), Toast.LENGTH_SHORT, true).show();
+            }
+        }
     }
 }

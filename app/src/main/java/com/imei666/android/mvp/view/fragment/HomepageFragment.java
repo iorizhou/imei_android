@@ -1,5 +1,6 @@
 package com.imei666.android.mvp.view.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.view.ViewPager;
@@ -23,10 +24,14 @@ import com.imei666.android.mvp.model.dto.Banner;
 import com.imei666.android.mvp.model.dto.DiaryTypeDTO;
 import com.imei666.android.mvp.model.dto.TypeDTO;
 import com.imei666.android.mvp.view.MyViewPager;
+import com.imei666.android.mvp.view.activity.MainActivity;
+import com.imei666.android.mvp.view.activity.SearchActivity;
 import com.imei666.android.net.HttpPostTask;
 import com.imei666.android.utils.URLConstants;
 import com.imei666.android.utils.adapter.FragmentAdapter;
 import com.imei666.android.utils.adapter.GridViewAdapter;
+import com.lljjcoder.style.citylist.CityListSelectActivity;
+import com.lljjcoder.style.citylist.bean.CityInfoBean;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.zhengsr.viewpagerlib.anim.ZoomOutPageTransformer;
 import com.zhengsr.viewpagerlib.bean.PageBean;
@@ -80,16 +85,23 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
     TextView mSearchEditText;
 
 
+    public void updateCity(CityInfoBean bean){
+        mCityTextView.setText(bean.getName());
+    }
+
     private void initSearchBanner(){
         mCityTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                ((MainActivity)getActivity()).goSelectCity();;
                 Toasty.info(getActivity(),"选择城市", Toast.LENGTH_SHORT, true).show();
             }
         });
         mSearchEditText.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), SearchActivity.class);
+                goIntent(intent);
                 Toasty.info(getActivity(),"跳转到搜索activity", Toast.LENGTH_SHORT, true).show();
             }
         });
@@ -283,6 +295,7 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
             }
         });
     }
+
 
     private void initDiaryTypeView(){
         mDiaryViewPager.setAdapter(new FragmentAdapter(getActivity().getSupportFragmentManager(),mDiaryListFragment));

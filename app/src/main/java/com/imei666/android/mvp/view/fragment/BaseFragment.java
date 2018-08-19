@@ -40,5 +40,9 @@ public class BaseFragment extends Fragment {
         context.startActivity(intent);
     }
 
+    public void goIntent(Intent intent){
+        getActivity().startActivity(intent);
+    }
+
 
 }
