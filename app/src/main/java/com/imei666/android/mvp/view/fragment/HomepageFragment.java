@@ -217,9 +217,11 @@ public class HomepageFragment extends BaseFragment implements View.OnClickListen
                 }
                 mActivityList.clear();
                 mActivityList = JSON.parseArray(jsonObject.getString("datas"),ActivityDTO.class);
-                Log.i(TAG,"mActivityList.size = "+mActivityList.size());
+                if (mActivityList!=null){
+                    Log.i(TAG,"mActivityList.size = "+mActivityList.size());
 
-                initActivityView();
+                    initActivityView();
+                }
             }
         });
     }

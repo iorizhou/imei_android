@@ -14,4 +14,10 @@ public class URLConstants {
     public static final String GET_DIARYLIST_BY_TYPEID = HOST + "/diary/getDiaryListByType";
     //首页活动
     public static final String GET_HOMEPAGE_ACTIVITY = HOST + "/activity/getHomepageActivity";
+
+
+    //整形页 推荐活动
+    public static final String GET_ITEMPAGE_RECOMMEND_ACTIVITY = HOST + "/activity/getRecomendActivity";
+
+
 }

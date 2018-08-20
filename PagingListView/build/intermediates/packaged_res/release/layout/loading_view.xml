@@ -18,5 +18,5 @@
         android:id="@+id/video_item_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/loading"/>
+        android:text="加载中..."/>
 </LinearLayout>

@@ -2,6 +2,23 @@
 <issues format="4" by="lint 3.1.4">
 
     <issue
+        id="GradleCompatible"
+        severity="Fatal"
+        message="The compileSdkVersion (23) should not be lower than the targetSdkVersion (28)"
+        category="Correctness"
+        priority="8"
+        summary="Incompatible Gradle Versions"
+        explanation="There are some combinations of libraries, or tools and libraries, that are incompatible, or can lead to bugs. One such incompatibility is compiling with a version of the Android support libraries that is not the latest version (or in particular, a version lower than your `targetSdkVersion`)."
+        errorLine1="    compileSdkVersion 23"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/iorizhou/imei_android/PagingListView/build.gradle"
+            line="5"
+            column="5"/>
+    </issue>
+
+    <issue
         id="OldTargetApi"
         severity="Warning"
         message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details."
@@ -16,25 +33,6 @@
         quickfix="studio">
         <location
             file="/Users/iorizhou/imei_android/PagingListView/src/main/AndroidManifest.xml"
-            line="10"
-            column="9"/>
-    </issue>
-
-    <issue
-        id="OldTargetApi"
-        severity="Warning"
-        message="Not targeting the latest versions of Android; compatibility &#xA;modes apply. Consider testing and updating this version. &#xA;Consult the android.os.Build.VERSION_CODES javadoc for details."
-        category="Correctness"
-        priority="6"
-        summary="Target SDK attribute is not targeting latest version"
-        explanation="When your application runs on a version of Android that is more recent than your `targetSdkVersion` specifies that it has been tested with, various compatibility modes kick in. This ensures that your application continues to work, but it may look out of place. For example, if the `targetSdkVersion` is less than 14, your app may get an option button in the UI.&#xA;&#xA;To fix this issue, set the `targetSdkVersion` to the highest available value. Then test your app to make sure everything works correctly. You may want to consult the compatibility notes to see what changes apply to each version you are adding support for: http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
-        url="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
-        urls="http://developer.android.com/reference/android/os/Build.VERSION_CODES.html"
-        errorLine1="        targetSdkVersion 22"
-        errorLine2="        ~~~~~~~~~~~~~~~~~~~"
-        quickfix="studio">
-        <location
-            file="/Users/iorizhou/imei_android/PagingListView/build.gradle"
             line="10"
             column="9"/>
     </issue>
@@ -90,7 +88,7 @@
     <issue
         id="GradleOverrides"
         severity="Warning"
-        message="This `minSdkVersion` value (`9`) is not used; it is always overridden by the value specified in the Gradle build script (`9`)"
+        message="This `minSdkVersion` value (`9`) is not used; it is always overridden by the value specified in the Gradle build script (`21`)"
         category="Correctness"
         priority="4"
         summary="Value overridden by Gradle build script"
@@ -106,7 +104,7 @@
     <issue
         id="GradleOverrides"
         severity="Warning"
-        message="This `targetSdkVersion` value (`18`) is not used; it is always overridden by the value specified in the Gradle build script (`22`)"
+        message="This `targetSdkVersion` value (`18`) is not used; it is always overridden by the value specified in the Gradle build script (`28`)"
         category="Correctness"
         priority="4"
         summary="Value overridden by Gradle build script"
@@ -120,9 +118,42 @@
     </issue>
 
     <issue
+        id="UnusedResources"
+        severity="Warning"
+        message="The resource `R.string.loading` appears to be unused"
+        category="Performance"
+        priority="3"
+        summary="Unused resources"
+        explanation="Unused resources make applications larger and slow down builds."
+        errorLine1="    &lt;string name=&quot;loading&quot;>Loading&amp;#8230;&lt;/string>"
+        errorLine2="            ~~~~~~~~~~~~~~"
+        quickfix="studio">
+        <location
+            file="/Users/iorizhou/imei_android/PagingListView/src/main/res/values/strings.xml"
+            line="3"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="HardcodedText"
+        severity="Warning"
+        message="Hardcoded string &quot;加载中...&quot;, should use `@string` resource"
+        category="Internationalization"
+        priority="5"
+        summary="Hardcoded text"
+        explanation="Hardcoding text attributes directly in layout files is bad for several reasons:&#xA;&#xA;* When creating configuration variations (for example for landscape or portrait)you have to repeat the actual text (and keep it up to date when making changes)&#xA;&#xA;* The application cannot be translated to other languages by just adding new translations for existing string resources.&#xA;&#xA;There are quickfixes to automatically extract this hardcoded string into a resource lookup."
+        errorLine1="        android:text=&quot;加载中...&quot;/>"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="/Users/iorizhou/imei_android/PagingListView/src/main/res/layout/loading_view.xml"
+            line="21"
+            column="9"/>
+    </issue>
+
+    <issue
         id="RtlHardcoded"
         severity="Warning"
-        message="Consider adding `android:layout_marginEnd=&quot;@dimen/loading_view_margin_right&quot;` to better support right-to-left layouts"
+        message="Consider replacing `android:layout_marginRight` with `android:layout_marginEnd=&quot;@dimen/loading_view_margin_right&quot;` to better support right-to-left layouts"
         category="Internationalization:Bidirectional Text"
         priority="5"
         summary="Using left/right instead of start/end attributes"
