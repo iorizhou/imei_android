@@ -19,5 +19,6 @@ public class URLConstants {
     //整形页 推荐活动
     public static final String GET_ITEMPAGE_RECOMMEND_ACTIVITY = HOST + "/activity/getRecomendActivity";
 
-
+    //根据typeid获取项目列表
+    public static final String GET_ITEMPAGE_ITEMLIST_BY_ID = HOST + "/item/getItemListByType";
 }

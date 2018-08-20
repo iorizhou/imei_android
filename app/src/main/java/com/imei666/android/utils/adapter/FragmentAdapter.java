@@ -9,8 +9,8 @@ import com.imei666.android.mvp.view.fragment.DiaryListFragment;
 import java.util.List;
 
 public class FragmentAdapter extends DragDetailFragmentPagerAdapter{
-    List<DiaryListFragment> fragments = null;
-    public FragmentAdapter(FragmentManager fm,List<DiaryListFragment> datas) {
+    List<? extends Fragment> fragments = null;
+    public FragmentAdapter(FragmentManager fm,List<? extends Fragment> datas) {
         super(fm);
         this.fragments = datas;
     }

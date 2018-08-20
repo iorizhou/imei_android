@@ -51,7 +51,6 @@ public class DiaryListFragment extends Fragment {
     }
 
     private void requestDiary(){
-        Toasty.info(getActivity(), "requestDiary", Toast.LENGTH_SHORT, true).show();
         Map<String,String> paramMap = new HashMap<String, String>();
         paramMap.put("typeid",mTypeid+"");
         paramMap.put("index",mIndex + "");
@@ -78,59 +77,12 @@ public class DiaryListFragment extends Fragment {
                     return;
                 }
                 for (DiaryDTO dto: list){
-//                    if (!mDiaryIdList.contains(dto.getId())){
+                    if (!mDiaryIdList.contains(dto.getId())){
                     mDiaryList.add(dto);
-//                        mDiaryIdList.add(dto.getId());
-//                    }
+                        mDiaryIdList.add(dto.getId());
+                    }
                 }
-                for (DiaryDTO dto: list){
-//                    if (!mDiaryIdList.contains(dto.getId())){
-                    mDiaryList.add(dto);
-//                        mDiaryIdList.add(dto.getId());
-//                    }
-                }
-                for (DiaryDTO dto: list){
-//                    if (!mDiaryIdList.contains(dto.getId())){
-                    mDiaryList.add(dto);
-//                        mDiaryIdList.add(dto.getId());
-//                    }
-                }
-                for (DiaryDTO dto: list){
-//                    if (!mDiaryIdList.contains(dto.getId())){
-                    mDiaryList.add(dto);
-//                        mDiaryIdList.add(dto.getId());
-//                    }
-                }
-                for (DiaryDTO dto: list){
-//                    if (!mDiaryIdList.contains(dto.getId())){
-                    mDiaryList.add(dto);
-//                        mDiaryIdList.add(dto.getId());
-//                    }
-                }
-                for (DiaryDTO dto: list){
-//                    if (!mDiaryIdList.contains(dto.getId())){
-                    mDiaryList.add(dto);
-//                        mDiaryIdList.add(dto.getId());
-//                    }
-                }
-                for (DiaryDTO dto: list){
-//                    if (!mDiaryIdList.contains(dto.getId())){
-                    mDiaryList.add(dto);
-//                        mDiaryIdList.add(dto.getId());
-//                    }
-                }
-                for (DiaryDTO dto: list){
-//                    if (!mDiaryIdList.contains(dto.getId())){
-                    mDiaryList.add(dto);
-//                        mDiaryIdList.add(dto.getId());
-//                    }
-                }
-                for (DiaryDTO dto: list){
-//                    if (!mDiaryIdList.contains(dto.getId())){
-                    mDiaryList.add(dto);
-//                        mDiaryIdList.add(dto.getId());
-//                    }
-                }
+
                 mListView.setHasMoreItems(list.size()<mCount?false:true);
                 mListView.setIsLoading(false);
                 mIndex += list.size();
@@ -167,8 +119,6 @@ public class DiaryListFragment extends Fragment {
             Log.i("diarylist","savedInstanceState != null");
             mTypeid = bundle.getLong("typeid");
         }
-        Log.i("diarylist","mtypeid = "+mTypeid);
-        Toasty.error(getActivity(), "mtypeid = "+mTypeid, Toast.LENGTH_SHORT, true).show();
         super.onCreate(savedInstanceState);
     }
 

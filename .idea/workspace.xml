@@ -7,7 +7,7 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="  " />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
@@ -20,37 +20,13 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/PagingListView.iml" afterPath="$PROJECT_DIR$/PagingListView/PagingListView.iml" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build.gradle" afterPath="$PROJECT_DIR$/PagingListView/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/generated/mockable-android-22.v3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/attr/R.txt" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/attr/R.txt" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/PagingListView$1.class" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/PagingListView$1.class" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/PagingListView.class" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/PagingListView.class" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/intermediate-jars/release/classes.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/intermediate-jars/release/res.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/javaPrecompile/test/debug/annotationProcessors.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/javaPrecompile/test/release/annotationProcessors.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/manifests/aapt/release/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/manifests/full/release/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/packaged-classes/release/classes.jar" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/packaged-classes/release/classes.jar" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/packaged_res/release/layout/loading_view.xml" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/packaged_res/release/layout/loading_view.xml" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/res/compiled/release/layout_loading_view.xml.flat" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/res/compiled/release/layout_loading_view.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/res/merged/release/layout/loading_view.xml" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/res/merged/release/layout/loading_view.xml" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/outputs/aar/PagingListView-release.aar" afterPath="$PROJECT_DIR$/PagingListView/build/outputs/aar/PagingListView-release.aar" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/reports/lint-results.html" afterPath="$PROJECT_DIR$/PagingListView/build/reports/lint-results.html" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/reports/lint-results.xml" afterPath="$PROJECT_DIR$/PagingListView/build/reports/lint-results.xml" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/ActivityDTO.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/ActivityDTO.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" />
-      <change beforePath="$PROJECT_DIR$/citypickerview/citypickerview.iml" afterPath="$PROJECT_DIR$/citypickerview/citypickerview.iml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/FragmentAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/FragmentAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_diarylist.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_diarylist.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_itempage.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_itempage.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,24 +49,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ItempageFragment.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view_itempage_item.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_itempage_item.xml">
+      <file leaf-file-name="fragment_homepage.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_homepage.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+            <state relative-caret-position="290">
+              <caret line="145" column="50" lean-forward="false" selection-start-line="145" selection-start-column="50" selection-end-line="145" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -102,21 +68,105 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="168">
+              <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+              <folding>
+                <element signature="e#772#1821#0" expanded="false" />
+                <element signature="e#922#1797#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItempageFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="87" column="59" lean-forward="false" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+              <folding>
+                <element signature="e#2053#2061#0" expanded="true" />
+                <element signature="e#2133#2151#0" expanded="true" />
+                <element signature="e#2941#3130#0" expanded="true" />
+                <element signature="e#3129#3130#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiaryListFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view_itempage_activity.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_itempage_activity.xml">
+      <file leaf-file-name="FragmentAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/FragmentAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemListFragmentAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/ItemListFragmentAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="76" lean-forward="false" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DragDetailFragmentPagerAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/DragDetailFragmentPagerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FragmentPagerAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-fragment/25.3.0/support-fragment-25.3.0-sources.jar!/android/support/v4/app/FragmentPagerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemListFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItemListFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding>
+                <element signature="e#1208#1217#0" expanded="true" />
+                <element signature="e#1271#1277#0" expanded="true" />
+                <element signature="e#2135#2151#0" expanded="true" />
+                <element signature="e#4236#4390#0" expanded="true" />
+                <element signature="e#4389#4390#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_itemlist.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_itemlist.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="165">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,8 +183,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>com.github.LillteZheng:ViewPagerHelper:v0.8</find>
-      <find>widget:crouton</find>
       <find>isloop</find>
       <find>guava</find>
       <find>ZoomIndicator</find>
@@ -154,7 +202,17 @@
       <find>选择城市</find>
       <find>oncreateview</find>
       <find>inittype</find>
+      <find>toasty</find>
+      <find>mTypeid =</find>
+      <find>line_indicator</find>
+      <find>mDiaryTypeIndicator</find>
+      <find>initDiaryTypeView</find>
       <find>requesttype</find>
+      <find>mDiaryViewPager</find>
+      <find>mDiaryListFragment</find>
+      <find>initListView</find>
+      <find>mAdapter</find>
+      <find>staggeredGridView1</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -4403,12 +4461,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/net/HttpPostTask.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/TypeDTO.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/element_item_small.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/GridViewAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/DiaryTypeDTO.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/DiaryDTO.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_diary.xml" />
@@ -4426,9 +4478,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/MyViewPager.java" />
         <option value="$PROJECT_DIR$/PagingListView/src/main/java/com/paging/listview/PagingListView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/MyGridView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/FragmentAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_diarylist.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/ActivityDTO.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/MyWebChromeClient.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_webview.xml" />
@@ -4446,14 +4495,23 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_search_history.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/SearchActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" />
         <option value="$PROJECT_DIR$/PagingListView/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/RecommendItemDTO.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_itempage_item.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/view_itempage_activity.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/ItemDTO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/FragmentAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/ItemListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_diarylist.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/ItemListFragmentAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_itempage.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_itemlist.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItemListFragment.java" />
       </list>
     </option>
   </component>
@@ -4590,6 +4648,58 @@
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imei666" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="mvp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imei666" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="mvp" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imei666" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imei666" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -4645,7 +4755,7 @@
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="fragment_itempage.&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_itempage.xml&#10;fragment_&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_itempage.xml&#10;homepage&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;ItempageFragment.java&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java&#10;build.gradle&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;urlcon&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/URLConstants.java&#10;sp&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/SPUtils.java&#10;androidma&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/AndroidManifest.xml&#10;maina&#9;PSI&#9;JAVA://com.imei666.android.mvp.view.activity.MainActivity&#10;imeiapp&#9;PSI&#9;JAVA://com.imei666.android.ImeiApplication&#10;setting&#9;FILE&#9;file:///Users/iorizhou/imei_android/settings.gradle&#10;fragme&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_homepage.xml&#10;home&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_homepage.xml&#10;homepa&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;build.gr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;diarylis&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;fragment_d&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_diarylist.xml&#10;build.g&#9;FILE&#9;file:///Users/iorizhou/imei_android/build.gradle&#10;build.&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;gradle-wra&#9;FILE&#9;file:///Users/iorizhou/imei_android/gradle/wrapper/gradle-wrapper.properties&#10;pagingli&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;diarylistfr&#9;PSI&#9;JAVA://com.imei666.android.mvp.view.fragment.DiaryListFragment&#10;diaryli&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;paginli&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;diary&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;di&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;paginglist.java&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;build.gra&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;color&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/values/colors.xml&#10;typedto&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/TypeDTO.java&#10;page&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;imei&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/ImeiApplication.java&#10;imeiappl&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/ImeiApplication.java&#10;build&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;strings.xml&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/values/strings.xml&#10;androidmani&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/AndroidManifest.xml&#10;build.grad&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle" />
+    <property name="SearchEverywhereHistoryKey" value="itemlistfr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ItemListFragment.java&#10;itempagefr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java&#10;itemlist&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/adapter/ItemListFragmentAdapter.java&#10;fragment_hom&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_homepage.xml&#10;fragment_itemp&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_itempage.xml&#10;fragment_item&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_itemlist.xml&#10;itemlistf&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ItemListFragment.java&#10;diarylistfr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;itempage&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java&#10;fragment_ho&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_homepage.xml&#10;diarylis&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;diarylistf&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;diaryli&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;fragment_itempa&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_itempage.xml&#10;homepage&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;itemdto&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/ItemDTO.java&#10;itempagef&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java&#10;homepagefr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;itemfr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java&#10;fragment_itempage.&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_itempage.xml&#10;fragment_&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_itempage.xml&#10;ItempageFragment.java&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java&#10;build.gradle&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;urlcon&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/URLConstants.java&#10;sp&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/SPUtils.java&#10;androidma&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/AndroidManifest.xml&#10;maina&#9;PSI&#9;JAVA://com.imei666.android.mvp.view.activity.MainActivity&#10;imeiapp&#9;PSI&#9;JAVA://com.imei666.android.ImeiApplication&#10;setting&#9;FILE&#9;file:///Users/iorizhou/imei_android/settings.gradle&#10;fragme&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_homepage.xml&#10;home&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_homepage.xml&#10;homepa&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;build.gr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;fragment_d&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_diarylist.xml&#10;build.g&#9;FILE&#9;file:///Users/iorizhou/imei_android/build.gradle&#10;build.&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;gradle-wra&#9;FILE&#9;file:///Users/iorizhou/imei_android/gradle/wrapper/gradle-wrapper.properties&#10;pagingli&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;paginli&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;diary&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;di&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java&#10;paginglist.java&#9;FILE&#9;file:///Users/iorizhou/imei_android/PagingListView/src/main/java/com/paging/listview/PagingListView.java&#10;build.gra&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;color&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/values/colors.xml&#10;typedto&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/TypeDTO.java&#10;page&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;imei&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/ImeiApplication.java&#10;imeiappl&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/ImeiApplication.java&#10;build&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;strings.xml&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/values/strings.xml" />
     <property name="DEBUGGABLE_DEVICE" value="xiaomi-mi_5-b5391644" />
     <property name="DEBUGGABLE_PROCESS" value="com.imei666.android" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -4897,12 +5007,13 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31241083" sideWeight="0.49745455" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56918687" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2681883" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29018182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38944367" sideWeight="0.49745455" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4915,7 +5026,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4924,7 +5034,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5025455" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56918687" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2681883" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -4941,7 +5051,7 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32952926" sideWeight="0.49745455" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31241083" sideWeight="0.49745455" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29018182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -4961,79 +5071,36 @@
           <line>182</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItemListFragment.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java</url>
+          <line>169</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItemListFragment.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItemListFragment.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/widget/ListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/widget/HeaderViewListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/MyScrollView.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="27" column="24" lean-forward="false" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/MyPagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="48" lean-forward="false" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="e#333#339#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/SlideFragmentPagerAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/DragScrollDetailsLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PagingListView/src/main/java/com/paging/listview/PagingListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="130" column="7" lean-forward="false" selection-start-line="117" selection-start-column="6" selection-end-line="130" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ViewPagerHelper-v0.8.aar/12e40ef1bb2757b2e4941fb13af04867/jars/classes.jar!/com/zhengsr/viewpagerlib/indicator/TabIndicator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3">
@@ -5041,56 +5108,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/FragmentAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="10" column="53" lean-forward="false" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="39" column="4" lean-forward="false" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="10" />
-          <folding>
-            <element signature="e#5991#6146#0" expanded="false" />
-            <element signature="e#6145#6146#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_diarylist.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/DragDetailFragmentPagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/MyGridView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/MyViewPager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="25" lean-forward="false" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -5335,14 +5356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/RecommendItemDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -5379,10 +5392,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/pic_logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_itempage_activity.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_itempage_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_diary.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-core-ui/25.3.0/support-core-ui-25.3.0-sources.jar!/android/support/v4/view/ViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="504" column="16" lean-forward="false" selection-start-line="504" selection-start-column="16" selection-end-line="504" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="70" lean-forward="false" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/ItemDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/DiaryListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309">
+          <caret line="29" column="11" lean-forward="false" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_item.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/ItemListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="228" column="36" lean-forward="true" selection-start-line="228" selection-start-column="36" selection-end-line="228" selection-end-column="36" />
+        <state relative-caret-position="94">
+          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+          <folding>
+            <element signature="e#2521#2529#0" expanded="false" />
+            <element signature="e#2603#2622#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/MyViewPager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_diarylist.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-fragment/25.3.0/support-fragment-25.3.0-sources.jar!/android/support/v4/app/FragmentPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="60" column="22" lean-forward="false" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -5392,35 +5524,16 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="112" column="21" lean-forward="false" selection-start-line="112" selection-start-column="21" selection-end-line="112" selection-end-column="21" />
+        <state relative-caret-position="290">
+          <caret line="145" column="50" lean-forward="false" selection-start-line="145" selection-start-column="50" selection-end-line="145" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/pic_logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_itempage_item.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/DragDetailFragmentPagerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="36" column="46" lean-forward="false" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_itempage_activity.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="43" lean-forward="true" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="135">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -5430,17 +5543,74 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="168">
+          <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+          <folding>
+            <element signature="e#772#1821#0" expanded="false" />
+            <element signature="e#922#1797#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItempageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        <state relative-caret-position="393">
+          <caret line="87" column="59" lean-forward="false" selection-start-line="87" selection-start-column="59" selection-end-line="87" selection-end-column="59" />
+          <folding>
+            <element signature="e#2053#2061#0" expanded="true" />
+            <element signature="e#2133#2151#0" expanded="true" />
+            <element signature="e#2941#3130#0" expanded="true" />
+            <element signature="e#3129#3130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_itemlist.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/FragmentAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/ItemListFragmentAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="76" lean-forward="false" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItemListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <element signature="e#1208#1217#0" expanded="true" />
+            <element signature="e#1271#1277#0" expanded="true" />
+            <element signature="e#2135#2151#0" expanded="true" />
+            <element signature="e#4236#4390#0" expanded="true" />
+            <element signature="e#4389#4390#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
