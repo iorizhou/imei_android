@@ -23,9 +23,22 @@ public class ItemDTO {
 	private String hospitalGps;
 	private String city;
 	private long djCount;
+	private long discountPrice;
+	private long origPrice;
 	
 	
-	
+	public long getDiscountPrice() {
+		return discountPrice;
+	}
+	public void setDiscountPrice(long discountPrice) {
+		this.discountPrice = discountPrice;
+	}
+	public long getOrigPrice() {
+		return origPrice;
+	}
+	public void setOrigPrice(long origPrice) {
+		this.origPrice = origPrice;
+	}
 	public long getDjCount() {
 		return djCount;
 	}
