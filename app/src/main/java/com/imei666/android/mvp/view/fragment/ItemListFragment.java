@@ -18,6 +18,7 @@ import com.imei666.android.mvp.model.dto.DiaryDTO;
 import com.imei666.android.mvp.model.dto.ItemDTO;
 import com.imei666.android.mvp.view.activity.ItemDetailActivity;
 import com.imei666.android.net.HttpPostTask;
+import com.imei666.android.utils.ProgressDialog;
 import com.imei666.android.utils.URLConstants;
 import com.imei666.android.utils.adapter.DiaryListAdapter;
 import com.imei666.android.utils.adapter.ItemListAdapter;
@@ -45,6 +46,7 @@ public class ItemListFragment extends Fragment {
     private String mCity;
     private int mIndex;
     private int mCount = 10;
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -108,6 +110,9 @@ public class ItemListFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(getActivity(), ItemDetailActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putLong("id",mItemList.get(i).getId());
+                intent.putExtras(bundle);
                 startActivity(intent);
             }
         });
