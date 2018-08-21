@@ -35,5 +35,9 @@
         <activity android:name=".mvp.view.activity.SearchActivity"
             android:windowSoftInputMode="adjustPan"
             android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".mvp.view.activity.ItemDetailActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:configChanges="orientation|screenSize|keyboardHidden"/>
     </application>
 </manifest>

@@ -1,5 +1,6 @@
 package com.imei666.android.mvp.view.fragment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -15,6 +16,7 @@ import com.alibaba.fastjson.JSONObject;
 import com.imei666.android.R;
 import com.imei666.android.mvp.model.dto.DiaryDTO;
 import com.imei666.android.mvp.model.dto.ItemDTO;
+import com.imei666.android.mvp.view.activity.ItemDetailActivity;
 import com.imei666.android.net.HttpPostTask;
 import com.imei666.android.utils.URLConstants;
 import com.imei666.android.utils.adapter.DiaryListAdapter;
@@ -105,7 +107,8 @@ public class ItemListFragment extends Fragment {
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-
+                Intent intent = new Intent(getActivity(), ItemDetailActivity.class);
+                startActivity(intent);
             }
         });
         mListView.setPagingableListener(new PagingListView.Pagingable() {
