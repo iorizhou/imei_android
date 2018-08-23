@@ -5,7 +5,21 @@
     xmlns:zsr="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent">
-
+    <com.imei666.android.mvp.view.DragScrollDetailsLayout
+        android:id="@+id/drag_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <RelativeLayout
         android:layout_width="match_parent"
         android:id="@+id/itemdetail_banner_layout"
@@ -36,4 +50,210 @@
             android:orientation="horizontal"/>
 
     </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_name"
+            android:maxLines="2"
+            android:textSize="18sp"
+            android:textColor="@color/black_ff"
+
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_discount"
+                android:maxLines="2"
+                android:textSize="18sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/netease_red"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_origPrice"
+                android:maxLines="2"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/item_discount"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black_ff"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_type"
+                android:maxLines="2"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/netease_red"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_yudingcount"
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black_ff"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/hospital_avatar"
+                    android:scaleType="centerCrop"
+                    />
+                <LinearLayout
+                    android:layout_toRightOf="@+id/hospital_avatar"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/hospital_name"
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/netease_red"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/hospital_addr"
+                        android:singleLine="true"
+                        android:textSize="14sp"
+                        android:layout_centerVertical="true"
+                        android:textColor="@color/netease_red"
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_weight="1"
+                android:text="医院主页"
+                android:id="@+id/hospital_website"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_weight="1"
+                android:text="医院地址"
+                android:id="@+id/hospital_go_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/doctor"
+                android:singleLine="true"
+                android:textSize="14sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black_ff"
+                />
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="预订须知"
+                android:textSize="14sp"
+                android:textColor="@color/black_ff"
+                />
+            <LinearLayout
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="服务项目"
+                    android:id="@+id/service_item_tip"
+                    android:textSize="14sp"
+                    android:textColor="@color/black_ff"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ddddddd"
+                    android:id="@+id/service_item"
+                    android:textSize="14sp"
+                    android:textColor="@color/black_ff"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+        <!-- 下面的TAB开始  -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+                <com.zhengsr.viewpagerlib.indicator.TabIndicator
+                    android:id="@+id/item_detail_line_indicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/gray_cccc"
+                    app:tab_color="@color/colorAccent"
+                    app:tab_width="50dp"
+                    app:tab_height="2dp"
+                    app:tab_text_default_color="@color/black_ff"
+                    app:tab_text_change_color="@color/colorAccent"
+                    app:tab_show="false"
+                    app:tab_text_type="colortext"
+                    app:tab_textsize="18sp"
+                    app:visiabel_size="6"
+                    android:layout_below="@+id/staggeredGridView1"
+                    />
+
+            <com.imei666.android.mvp.view.MyViewPager
+                android:id="@+id/item_detail_viewpager"
+                android:layout_below="@+id/item_detail_line_indicator"
+                android:layout_width="match_parent"
+                android:background="@color/gray_cccc"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </com.imei666.android.mvp.view.DragScrollDetailsLayout>
+
 </LinearLayout>

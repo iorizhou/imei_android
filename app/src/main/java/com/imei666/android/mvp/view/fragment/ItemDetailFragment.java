@@ -3,10 +3,12 @@ package com.imei666.android.mvp.view.fragment;
 import android.app.Dialog;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -17,12 +19,14 @@ import com.imei666.android.R;
 import com.imei666.android.mvp.model.dto.Banner;
 import com.imei666.android.mvp.model.dto.ItemDTO;
 import com.imei666.android.mvp.view.LoadingDialog;
+import com.imei666.android.mvp.view.MyViewPager;
 import com.imei666.android.net.HttpPostTask;
 import com.imei666.android.utils.ProgressDialog;
 import com.imei666.android.utils.URLConstants;
 import com.zhengsr.viewpagerlib.anim.ZoomOutPageTransformer;
 import com.zhengsr.viewpagerlib.bean.PageBean;
 import com.zhengsr.viewpagerlib.callback.PageHelperListener;
+import com.zhengsr.viewpagerlib.indicator.TabIndicator;
 import com.zhengsr.viewpagerlib.indicator.TextIndicator;
 import com.zhengsr.viewpagerlib.indicator.TransIndicator;
 import com.zhengsr.viewpagerlib.view.BannerViewPager;
@@ -41,12 +45,41 @@ import okhttp3.Call;
 public class ItemDetailFragment extends BaseFragment {
     private long mId;
     private PageBean mPageBean;
+    private ItemDTO mItemDTO;
     private List<String> mPicList = new ArrayList<String>();
+    private List<BaseFragment> mTabFragmentList = new ArrayList<BaseFragment>();
     @BindView(R.id.itemdetail_loop_viewpager_arc)
     BannerViewPager mViewPager;
     @BindView(R.id.itemdetail_bottom_zoom_arc)
     TransIndicator mIndicator;
+    @BindView(R.id.item_name)
+    TextView mItemName;
+    @BindView(R.id.item_discount)
+    TextView mItemDiscount;
+    @BindView(R.id.item_origPrice)
+    TextView mItemOrigPrice;
+    @BindView(R.id.item_type)
+    TextView mItemType;
+    @BindView(R.id.hospital_avatar)
+    ImageView mHospitalImg;
+    @BindView(R.id.hospital_name)
+    TextView mHospitalName;
+    @BindView(R.id.hospital_addr)
+    TextView mHospitalAddr;
+
+    @BindView(R.id.hospital_website)
+    Button mHospitalWebsite;
+    @BindView(R.id.hospital_go_map)
+    Button mAddrBtn;
+    @BindView(R.id.item_detail_line_indicator)
+    TabIndicator mItemDetailIndicator;
+    @BindView(R.id.item_detail_viewpager)
+    MyViewPager mItemDetailViewPager;
+
     private Dialog mDialog;
+
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -103,14 +136,15 @@ public class ItemDetailFragment extends BaseFragment {
                     Toasty.error(getActivity(), "获取项目详情失败:"+jsonObject.getString("msg")+"，请稍候重试", Toast.LENGTH_SHORT, true).show();
                     return;
                 }
-                ItemDTO dto = JSON.parseObject(jsonObject.getString("datas"),ItemDTO.class);
-                if (dto == null){
+                mItemDTO = JSON.parseObject(jsonObject.getString("datas"),ItemDTO.class);
+                if (mItemDTO == null){
                     Toasty.error(getActivity(), "获取详情失败，请稍候重试", Toast.LENGTH_SHORT, true).show();
                     return;
                 }
-                mPicList.add(dto.getCover());
-                mPicList.add(dto.getCover());
+                mPicList.add(mItemDTO.getCover());
+                mPicList.add(mItemDTO.getCover());
                 initBannerView();
+                initDetailTabLayout();
             }
         });
     }
@@ -155,5 +189,11 @@ public class ItemDetailFragment extends BaseFragment {
             mId = bundle.getLong("id");
         }
         super.onCreate(savedInstanceState);
+    }
+
+    //初始化项目详情页下面的三个tab fragment 服务详情H5 预订流程H5 日记和案例
+
+    private void initDetailTabLayout(){
+
     }
 }
