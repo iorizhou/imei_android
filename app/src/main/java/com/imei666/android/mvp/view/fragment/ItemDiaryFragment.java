@@ -3,24 +3,26 @@ package com.imei666.android.mvp.view.fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
+import com.imei666.android.mvp.model.dto.ItemDTO;
+
 public class ItemDiaryFragment extends BaseFragment {
 
 
-    private long mItemId;
+    private ItemDTO mItemDTO;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         Bundle bundle = getArguments();
         if (bundle!=null){
-            mItemId = bundle.getLong("itemid");
+            mItemDTO = (ItemDTO) bundle.getSerializable("dto");
         }
         super.onCreate(savedInstanceState);
     }
 
-    public static ItemDiaryFragment newInStance(long itemid){
+    public static ItemDiaryFragment newInStance(ItemDTO dto){
         ItemDiaryFragment fragment = new ItemDiaryFragment();
         Bundle bundle = new Bundle();
-        bundle.putLong("itemid",itemid);
+        bundle.putSerializable("dto",dto);
         fragment.setArguments(bundle);
         return fragment;
     }

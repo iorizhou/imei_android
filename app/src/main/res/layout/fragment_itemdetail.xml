@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:id="@+id/item_detail_total_layout"
     xmlns:zsr="http://schemas.android.com/apk/res-auto"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_height="match_parent">
@@ -9,8 +10,8 @@
         android:id="@+id/drag_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
         android:background="@color/white"
-        android:layout_marginTop="40dp"
         android:orientation="vertical"
         >
     <ScrollView
@@ -114,7 +115,8 @@
                 android:textColor="@color/black_ff"
                 />
         </RelativeLayout>
-        <RelativeLayout
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_marginTop="15dp"
             android:layout_height="wrap_content">
@@ -183,7 +185,7 @@
                 android:layout_centerVertical="true"
                 android:textColor="@color/black_ff"
                 />
-        </RelativeLayout>
+        </LinearLayout>
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
@@ -239,11 +241,10 @@
                     app:tab_height="2dp"
                     app:tab_text_default_color="@color/black_ff"
                     app:tab_text_change_color="@color/colorAccent"
-                    app:tab_show="false"
+                    app:tab_show="true"
                     app:tab_text_type="colortext"
                     app:tab_textsize="18sp"
-                    app:visiabel_size="6"
-                    android:layout_below="@+id/staggeredGridView1"
+                    app:visiabel_size="3"
                     />
 
             <com.imei666.android.mvp.view.MyViewPager
@@ -255,5 +256,62 @@
         </LinearLayout>
 
     </com.imei666.android.mvp.view.DragScrollDetailsLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_gravity="bottom"
+        android:focusable="true"
+        android:layout_alignParentBottom="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="60dp">
+        <LinearLayout
+            android:id="@+id/item_detail_price_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订金"
+            android:id="@+id/item_detail_dj"
+            android:textSize="14sp"
+            android:textColor="@color/netease_red"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/item_detail_wk"
+            android:textSize="14sp"
+            android:textColor="@color/black_ff"
 
-</LinearLayout>
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/item_detail_price_layout"
+            android:layout_marginLeft="5dp"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:layout_weight="1"
+                android:text="咨询"
+                android:id="@+id/item_detail_zixun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_weight="1"
+                android:text="立即预订"
+                android:id="@+id/item_detail_yd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

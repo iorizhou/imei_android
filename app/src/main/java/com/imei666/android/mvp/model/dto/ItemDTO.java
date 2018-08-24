@@ -1,8 +1,9 @@
 package com.imei666.android.mvp.model.dto;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class ItemDTO {
+public class ItemDTO implements Serializable{
 	private long id;
 	private String name;
 	private String cover;
