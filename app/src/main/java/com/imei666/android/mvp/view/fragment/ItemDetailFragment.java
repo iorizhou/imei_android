@@ -103,7 +103,7 @@ public class ItemDetailFragment extends BaseFragment {
 
     private PopupWindow mPopupWindow;
 
-    private Dialog mDialog;
+
 
 
 
@@ -119,22 +119,12 @@ public class ItemDetailFragment extends BaseFragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mDialog = LoadingDialog.createLoadingDialog(getActivity(),"数据加载中，请稍候...",true);
-        mDialog.show();
+        showLoading();
         requestItem();
     }
 
 
-    private void dismissDialog(){
-        try{
-            if (mDialog!=null &&mDialog.isShowing()){
-                mDialog.dismiss();
-                mDialog = null;
-            }
-        }catch (Exception e){
 
-        }
-    }
 
     @Override
     public void onDestroy() {

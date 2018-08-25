@@ -8,6 +8,7 @@
     android:layout_height="match_parent">
 
     <ScrollView
+
         android:scrollbars="none"
         android:layout_marginBottom="40dp"
         android:layout_width="match_parent"

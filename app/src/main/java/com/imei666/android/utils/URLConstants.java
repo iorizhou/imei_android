@@ -37,4 +37,8 @@ public class URLConstants {
 
     //提交订单
     public static final String SUBMIT_ORDER = HOST + "/order/create";
+
+    //查询订单详情
+    public static final String GET_ORDER_DETAIL = HOST + "/order/detail";
+
 }

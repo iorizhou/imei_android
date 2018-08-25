@@ -1,6 +1,7 @@
 package com.imei666.android.mvp.view.fragment;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.TextUtils;
@@ -21,6 +22,7 @@ import com.imei666.android.mvp.model.dto.SubscriptionRedPacketDTO;
 import com.imei666.android.mvp.model.dto.WKRedPacketDTO;
 import com.imei666.android.mvp.model.dto.YYRedPacketDTO;
 import com.imei666.android.mvp.view.LoadingDialog;
+import com.imei666.android.mvp.view.activity.PayOrderActivity;
 import com.imei666.android.net.HttpPostTask;
 import com.imei666.android.utils.DateUtil;
 import com.imei666.android.utils.URLConstants;
@@ -84,28 +86,12 @@ public class CreateOrderFragment extends BaseFragment {
     private long mSelectedYYAmount = 0;
     private long mYYRedPacketId;
 
-    private Dialog mDialog;
+
     private String mOrderId;
 
-    private void showLoading(){
-        if (mDialog!=null){
-            mDialog.dismiss();
-            mDialog=null;
-        }
-        mDialog = LoadingDialog.createLoadingDialog(getActivity(),"数据加载中，请稍候...",true);
-        mDialog.show();
-    }
 
-    private void dismissLoading(){
-        try{
-            if (mDialog!=null && mDialog.isShowing()){
-                mDialog.dismiss();
-                mDialog = null;
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-    }
+
+
 
     private void updateDJPayInfo(){
         mDJQMoney.setText(mSelectedDJQAmount==0?"0张可用":"立减"+mSelectedDJQAmount+"元");
@@ -160,7 +146,7 @@ public class CreateOrderFragment extends BaseFragment {
         new HttpPostTask().doPost(URLConstants.SUBMIT_ORDER, paramMap, new StringCallback() {
             @Override
             public void onError(Call call, Exception e, int id) {
-                dismissLoading();
+                dismissDialog();
                 mSubmit.setClickable(true);
                 Log.i(TAG,"error = "+e.getMessage());
                 Toasty.error(getActivity(), "创建订单失败，请稍候重试", Toast.LENGTH_SHORT, true).show();
@@ -169,7 +155,7 @@ public class CreateOrderFragment extends BaseFragment {
             @Override
             public void onResponse(String response, int id) {
                 mSubmit.setClickable(true);
-                dismissLoading();
+                dismissDialog();
                 JSONObject jsonObject = JSONObject.parseObject(response);
                 if (!jsonObject.getString("msgCode").equals("0")){
 
@@ -177,8 +163,13 @@ public class CreateOrderFragment extends BaseFragment {
                     return;
                 }
                 mOrderId = jsonObject.getString("datas");
+                Intent intent = new Intent(getActivity(), PayOrderActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("orderId",mOrderId);
+                intent.putExtras(bundle);
+                getActivity().startActivity(intent);
+                getActivity().finish();
 
-                Toasty.error(getActivity(), "创建订单成功:"+mOrderId, Toast.LENGTH_SHORT, true).show();
             }
         });
     }
