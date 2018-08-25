@@ -143,7 +143,6 @@ public class ItemDetailFragment extends BaseFragment {
     }
 
     private void requestItem(){
-        Toasty.error(getActivity(), "requestItem called", Toast.LENGTH_SHORT, true).show();
         Map<String,String> paramMap = new HashMap<String, String>();
 
         paramMap.put("id",mId+"");

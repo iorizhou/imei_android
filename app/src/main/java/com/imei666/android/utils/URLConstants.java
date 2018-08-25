@@ -24,4 +24,17 @@ public class URLConstants {
 
     //项目详情
     public static final String GET_ITEM_DETAIL_BY_ID = HOST + "/item/detail";
+
+    //获取用户当前可用订金红包
+    public static final String GET_USER_DJ_REDPACKET = HOST + "/redpacket/getDJRedPacketList";
+
+
+    //获取用户当前可用尾款红包
+    public static final String GET_USER_WK_REDPACKET = HOST + "/redpacket/getWKRedPacketList";
+
+    //获取用户当前可用医院专用红包
+    public static final String GET_USER_YY_REDPACKET = HOST + "/redpacket/getYYRedPacketList";
+
+    //提交订单
+    public static final String SUBMIT_ORDER = HOST + "/order/create";
 }

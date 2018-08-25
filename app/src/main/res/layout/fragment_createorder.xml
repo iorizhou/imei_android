@@ -80,6 +80,7 @@
                     android:layout_centerVertical="true"
                     android:id="@+id/createorder_discount"
                     android:layout_alignParentRight="true"
+                    android:textColor="@color/netease_red"
                     />
 
             </RelativeLayout>
@@ -98,6 +99,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:id="@+id/createorder_buycount"
+                    android:textColor="@color/netease_red"
                     android:layout_alignParentRight="true"
                     android:text="1"
                     />
@@ -125,7 +127,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
                     android:id="@+id/createorder_djqcount"
-                    android:text="-50"
+                    android:textColor="@color/netease_red"
                     android:layout_alignParentRight="true"
                     />
 
@@ -146,6 +148,7 @@
                     android:layout_centerVertical="true"
                     android:id="@+id/createorder_wkqcount"
                     android:text="0张"
+                    android:textColor="@color/netease_red"
                     android:layout_alignParentRight="true"
                     />
 
@@ -166,6 +169,7 @@
                     android:layout_centerVertical="true"
                     android:id="@+id/createorder_wkhbcount"
                     android:text="0张"
+                    android:textColor="@color/netease_red"
                     android:layout_alignParentRight="true"
                     />
 
@@ -195,6 +199,7 @@
                     android:layout_centerVertical="true"
                     android:id="@+id/createorder_dj"
                     android:text="￥"
+                    android:textColor="@color/netease_red"
                     android:layout_alignParentRight="true"
                     />
 
@@ -215,6 +220,7 @@
                     android:layout_centerVertical="true"
                     android:id="@+id/createorder_djyouhui"
                     android:text="￥"
+                    android:textColor="@color/netease_red"
                     android:layout_alignParentRight="true"
                     />
 
@@ -235,11 +241,13 @@
                     android:layout_centerVertical="true"
                     android:id="@+id/createorder_wkmoney"
                     android:text="￥"
+                    android:textColor="@color/netease_red"
                     android:layout_alignParentRight="true"
                     />
 
             </RelativeLayout>
             <RelativeLayout
+                android:layout_marginTop="30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <TextView
@@ -255,6 +263,7 @@
                     android:layout_centerVertical="true"
                     android:id="@+id/createorder_zaixianfu"
                     android:text="￥"
+                    android:textColor="@color/netease_red"
                     android:layout_alignParentRight="true"
                     />
 
