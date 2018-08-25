@@ -41,4 +41,10 @@ public class URLConstants {
     //查询订单详情
     public static final String GET_ORDER_DETAIL = HOST + "/order/detail";
 
+
+    //获取支付宝支付信息
+    public static final String GET_ALIPAY_INFO = HOST + "/order/getAlipayInfo";
+
+    //获取支付宝支付信息
+    public static final String GET_ORDER_LIST = HOST + "/order/list";
 }

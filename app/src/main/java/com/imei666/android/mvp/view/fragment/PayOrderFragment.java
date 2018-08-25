@@ -7,6 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -30,7 +31,7 @@ import butterknife.ButterKnife;
 import es.dmoral.toasty.Toasty;
 import okhttp3.Call;
 
-public class PayOrderFragment extends BaseFragment {
+public class PayOrderFragment extends BaseFragment implements View.OnClickListener{
 
     private String mOrderId;
     private OrderDTO mOrderDTO;
@@ -44,8 +45,13 @@ public class PayOrderFragment extends BaseFragment {
     Button mPayBtn;
     @BindView(R.id.pay_amout)
     TextView mPayAmount;
-
-    private int mPayChannel;
+    @BindView(R.id.alipay_checkbox)
+    CheckBox mAlipayCheckBox;
+    @BindView(R.id.weixinpay_checkbox)
+    CheckBox mWXPayCheckBox;
+    @BindView(R.id.huabei_checkbox)
+    CheckBox mHuabeiCheckBox;
+    private int mPayChannel = 0;
 
 
     //请求订单详情
@@ -90,10 +96,42 @@ public class PayOrderFragment extends BaseFragment {
                 mPayBtn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Toasty.error(getActivity(), "付钱", Toast.LENGTH_SHORT, true).show();
-
+                        showLoading();
+                        mPayBtn.setClickable(false);
+                        requestPayInfo();
                     }
                 });
+            }
+        });
+    }
+
+    private void requestPayInfo(){
+        Map<String,String> paramMap = new HashMap<String, String>();
+
+        paramMap.put("userId","1");
+        paramMap.put("orderId",mOrderId);
+        String url = URLConstants.GET_ALIPAY_INFO;
+        new HttpPostTask().doPost(url, paramMap, new StringCallback() {
+            @Override
+            public void onError(Call call, Exception e, int id) {
+                dismissDialog();
+                mPayBtn.setClickable(true);
+                Log.i(TAG,"error = "+e.getMessage());
+
+                Toasty.error(getActivity(), "获取支付信息失败，请稍候重试", Toast.LENGTH_SHORT, true).show();
+            }
+
+            @Override
+            public void onResponse(String response, int id) {
+                dismissDialog();
+                mPayBtn.setClickable(true);
+                JSONObject jsonObject = JSONObject.parseObject(response);
+                if (!jsonObject.getString("msgCode").equals("0")){
+                    Toasty.error(getActivity(), "获取支付信息失败:"+jsonObject.getString("msg")+"，请稍候重试", Toast.LENGTH_SHORT, true).show();
+                    return;
+                }
+                String payInfo = jsonObject.getString("datas");
+                Toasty.error(getActivity(), "payinfo = "+payInfo, Toast.LENGTH_SHORT, true).show();
             }
         });
     }
@@ -125,6 +163,9 @@ public class PayOrderFragment extends BaseFragment {
         super.onViewCreated(view, savedInstanceState);
         showLoading();
         requestOrderDetail();
+        mAlipayLayout.setOnClickListener(this);
+        mWxPayLayout.setOnClickListener(this);
+        mHuabeiLayout.setOnClickListener(this);
     }
 
     public static PayOrderFragment newInStance(String orderId){
@@ -133,5 +174,30 @@ public class PayOrderFragment extends BaseFragment {
         bundle.putString("orderId",orderId);
         fragment.setArguments(bundle);
         return fragment;
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()){
+            case R.id.alipaylayout:
+                mPayChannel = 0;
+                mAlipayCheckBox.setChecked(true);
+                mWXPayCheckBox.setChecked(false);
+                mHuabeiCheckBox.setChecked(false);
+                break;
+            case R.id.wxpaylayout:
+                mPayChannel = 1;
+                mAlipayCheckBox.setChecked(false);
+                mWXPayCheckBox.setChecked(true);
+                mHuabeiCheckBox.setChecked(false);
+                break;
+
+            case R.id.huabeilayout:
+                mAlipayCheckBox.setChecked(false);
+                mWXPayCheckBox.setChecked(false);
+                mHuabeiCheckBox.setChecked(true);
+                mPayChannel = 2;
+                break;
+        }
     }
 }
