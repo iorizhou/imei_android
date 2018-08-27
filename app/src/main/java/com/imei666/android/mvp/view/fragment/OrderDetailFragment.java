@@ -94,16 +94,33 @@ public class OrderDetailFragment extends BaseFragment {
             status = "退款/已过期";
         }
         mCount.setText(mCount.getText().toString()+mOrderDTO.getBuyCount());
-        mStatus.setText(mStatus.getText().toString()+status);
-        mPhone.setText(mPhone.getText().toString()+"17688783268");
+        String statusStr = mStatus.getText().toString();
+        if (mOrderDTO.getOrderStatus()==1){
+            //已支付
+            String payChannel = "支付宝";
+            if (mOrderDTO.getPayChannel()==0){
+                payChannel = "支付宝";
+            }else if (mOrderDTO.getPayChannel()==1){
+                payChannel = "微信支付";
+            }else {
+                payChannel = "支付宝花呗";
+            }
+            mStatus.setText(statusStr + status+" "+payChannel);
+        }else if (mOrderDTO.getOrderStatus()==2){
+            //已消费
+            mStatus.setText(statusStr + status +" "+mOrderDTO.getConsumeDate());
+        }else {
+            mStatus.setText(statusStr + status);
+        }
+        mPhone.setText(mPhone.getText().toString()+mOrderDTO.getPhoneNum());
         mCreateTime.setText(mCreateTime.getText().toString()+mOrderDTO.getCreateDate());
         mPayChannel.setText(mPayChannel.getText().toString()+"支付订金");
         mDiscount.setText(mDiscount.getText().toString()+mOrderDTO.getTotalPrice());
         mWK.setText(mWK.getText().toString()+(mOrderDTO.getTotalPrice()-mOrderDTO.getDjTotalCount()));
         mNeedPay.setText(mNeedPay.getText().toString()+mOrderDTO.getNeedPayCount());
         mItemName.setText(mOrderDTO.getItemName());
-        mHospital.setText("深圳博美");
-        mHospitalAddr.setText("深圳市XXX");
+        mHospital.setText(mOrderDTO.getHospitalName());
+        mHospitalAddr.setText(mOrderDTO.getHospitalAddr());
         mPrice.setText(mOrderDTO.getTotalPrice()+"元");
         if (mOrderDTO.getOrderStatus()==0){
             mOpeBtn.setText("去支付");

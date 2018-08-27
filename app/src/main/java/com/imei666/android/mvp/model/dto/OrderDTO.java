@@ -29,9 +29,43 @@ public class OrderDTO implements Serializable{
 	private long userId;
 	private long consumeUserId;   //进行订单核销的医院操作人员ID。
 	private String createDate;  //订单创建时间
+	private long hospitalId;  //医院ID
+	private String hospitalName;
+	private String hospitalAddr;
+	private String consumeDate;  //如果完成支付了，到医院核销使用的日期
+	private String payDate;   //支付时间
 	
 	
-	
+	public String getPayDate() {
+		return payDate;
+	}
+	public void setPayDate(String payDate) {
+		this.payDate = payDate;
+	}
+	public String getConsumeDate() {
+		return consumeDate;
+	}
+	public void setConsumeDate(String consumeDate) {
+		this.consumeDate = consumeDate;
+	}
+	public long getHospitalId() {
+		return hospitalId;
+	}
+	public void setHospitalId(long hospitalId) {
+		this.hospitalId = hospitalId;
+	}
+	public String getHospitalName() {
+		return hospitalName;
+	}
+	public void setHospitalName(String hospitalName) {
+		this.hospitalName = hospitalName;
+	}
+	public String getHospitalAddr() {
+		return hospitalAddr;
+	}
+	public void setHospitalAddr(String hospitalAddr) {
+		this.hospitalAddr = hospitalAddr;
+	}
 	public String getCreateDate() {
 		return createDate;
 	}

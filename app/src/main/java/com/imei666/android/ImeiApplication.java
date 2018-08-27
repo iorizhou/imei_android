@@ -3,7 +3,9 @@ package com.imei666.android;
 import android.app.Application;
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.util.Log;
 
+import com.imei666.android.utils.Constants;
 import com.imei666.android.utils.CrashHandler;
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiskCache;
 import com.nostra13.universalimageloader.cache.disc.naming.HashCodeFileNameGenerator;
@@ -18,6 +20,9 @@ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
 import com.nostra13.universalimageloader.core.download.BaseImageDownloader;
 import com.nostra13.universalimageloader.utils.StorageUtils;
+import com.tencent.android.tpush.XGIOperateCallback;
+import com.tencent.android.tpush.XGPushConfig;
+import com.tencent.android.tpush.XGPushManager;
 import com.zhy.http.okhttp.OkHttpUtils;
 
 import java.io.File;
@@ -38,8 +43,26 @@ public class ImeiApplication extends Application{
         initImageLoader();
         initPictureOptions();
         initOkHttp();
+        initTencentXinge();
 //        CrashHandler.getInstance().init(getApplicationContext());
         sInstance = this;
+    }
+
+    private void initTencentXinge(){
+        XGPushConfig.enableDebug(this,true);
+        XGPushManager.registerPush(this, new XGIOperateCallback() {
+            @Override
+            public void onSuccess(Object data, int flag) {
+                //token在设备卸载重装的时候有可能会变
+                Constants.TENCENT_XINGE_TOKEN = (String) data;
+                Log.d("TPush", "注册成功，设备token为：" + data);
+                XGPushManager.bindAccount(getApplicationContext(), "imei_xinge");
+            }
+            @Override
+            public void onFail(Object data, int errCode, String msg) {
+                Log.d("TPush", "注册失败，错误码：" + errCode + ",错误信息：" + msg);
+            }
+        });
     }
 
 
