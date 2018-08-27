@@ -76,15 +76,15 @@ public class CreateOrderFragment extends BaseFragment {
     //订金红包
     private List<SubscriptionRedPacketDTO> mDJRedPacketList = new ArrayList<SubscriptionRedPacketDTO>();
     private long mSelectedDJQAmount = 0;
-    private long mDJRedPacketId;
+    private long mDJRedPacketId=0;
     //尾款红包(我们平台发放的)
     private List<WKRedPacketDTO> mWKRedPacketList = new ArrayList<WKRedPacketDTO>();
     private long mSelectedWKQAmount = 0;
-    private long mWKRedPacketId;
+    private long mWKRedPacketId=0;
     //医院红包(医院发放的)
     private List<YYRedPacketDTO> mYYRedPacketList = new ArrayList<YYRedPacketDTO>();
     private long mSelectedYYAmount = 0;
-    private long mYYRedPacketId;
+    private long mYYRedPacketId=0;
 
 
     private String mOrderId;
@@ -187,7 +187,7 @@ public class CreateOrderFragment extends BaseFragment {
                 Log.i(TAG,"error = "+e.getMessage());
                 mDJQMoney.setText("0张可用");
                 mSelectedDJQAmount = 0;
-                Toasty.error(getActivity(), "获取可用订金红包失败，请稍候重试", Toast.LENGTH_SHORT, true).show();
+//                Toasty.error(getActivity(), "获取可用订金红包失败，请稍候重试", Toast.LENGTH_SHORT, true).show();
                 updateDJPayInfo();
             }
 
@@ -198,7 +198,7 @@ public class CreateOrderFragment extends BaseFragment {
                     mDJQMoney.setText("0张可用");
                     mSelectedDJQAmount = 0;
                     updateDJPayInfo();
-                    Toasty.error(getActivity(), "获取可用订金红包失败:"+jsonObject.getString("msg")+"，请稍候重试", Toast.LENGTH_SHORT, true).show();
+//                    Toasty.error(getActivity(), "获取可用订金红包失败:"+jsonObject.getString("msg")+"，请稍候重试", Toast.LENGTH_SHORT, true).show();
                     return;
                 }
                 mDJRedPacketList = JSON.parseArray(jsonObject.getString("datas"),SubscriptionRedPacketDTO.class);
@@ -235,7 +235,7 @@ public class CreateOrderFragment extends BaseFragment {
                 Log.i(TAG,"error = "+e.getMessage());
                 mWKQMoney.setText("0张可用");
                 mSelectedWKQAmount = 0;
-                Toasty.error(getActivity(), "获取可用尾款红包失败，请稍候重试", Toast.LENGTH_SHORT, true).show();
+//                Toasty.error(getActivity(), "获取可用尾款红包失败，请稍候重试", Toast.LENGTH_SHORT, true).show();
                 updateWKInfo();
             }
 
@@ -246,7 +246,7 @@ public class CreateOrderFragment extends BaseFragment {
                     mWKQMoney.setText("0张可用");
                     mSelectedWKQAmount = 0;
                     updateWKInfo();
-                    Toasty.error(getActivity(), "获取可用尾款红包失败:"+jsonObject.getString("msg")+"，请稍候重试", Toast.LENGTH_SHORT, true).show();
+//                    Toasty.error(getActivity(), "获取可用尾款红包失败:"+jsonObject.getString("msg")+"，请稍候重试", Toast.LENGTH_SHORT, true).show();
                     return;
                 }
                 mWKRedPacketList = JSON.parseArray(jsonObject.getString("datas"),WKRedPacketDTO.class);
@@ -284,7 +284,7 @@ public class CreateOrderFragment extends BaseFragment {
                 Log.i(TAG,"error = "+e.getMessage());
                 mYYHBMoney.setText("0张可用");
                 mSelectedYYAmount = 0;
-                Toasty.error(getActivity(), "获取可用医院红包失败，请稍候重试", Toast.LENGTH_SHORT, true).show();
+//                Toasty.error(getActivity(), "获取可用医院红包失败，请稍候重试", Toast.LENGTH_SHORT, true).show();
                 updateWKInfo();
             }
 
@@ -295,7 +295,7 @@ public class CreateOrderFragment extends BaseFragment {
                     mYYHBMoney.setText("0张可用");
                     mSelectedYYAmount = 0;
                     updateWKInfo();
-                    Toasty.error(getActivity(), "获取可用医院红包失败:"+jsonObject.getString("msg")+"，请稍候重试", Toast.LENGTH_SHORT, true).show();
+//                    Toasty.error(getActivity(), "获取可用医院红包失败:"+jsonObject.getString("msg")+"，请稍候重试", Toast.LENGTH_SHORT, true).show();
                     return;
                 }
                 mYYRedPacketList = JSON.parseArray(jsonObject.getString("datas"),YYRedPacketDTO.class);
