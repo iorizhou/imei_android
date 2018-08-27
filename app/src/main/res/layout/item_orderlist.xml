@@ -24,6 +24,7 @@
             android:layout_height="wrap_content" />
     </RelativeLayout>
     <RelativeLayout
+        android:id="@+id/orderlist_item_main_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 

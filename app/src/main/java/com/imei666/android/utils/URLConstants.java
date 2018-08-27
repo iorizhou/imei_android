@@ -47,4 +47,6 @@ public class URLConstants {
 
     //获取支付宝支付信息
     public static final String GET_ORDER_LIST = HOST + "/order/list";
+
+
 }

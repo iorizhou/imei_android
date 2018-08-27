@@ -1,7 +1,9 @@
 package com.imei666.android.mvp.model.dto;
 
+import java.io.Serializable;
+
 //订单
-public class OrderDTO {
+public class OrderDTO implements Serializable{
 	private long id;
 	private String itemName;
 	private long itemId;

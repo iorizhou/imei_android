@@ -1,7 +1,9 @@
 package com.imei666.android.utils.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Paint;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,11 +11,14 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.imei666.android.R;
 import com.imei666.android.mvp.model.dto.ItemDTO;
 import com.imei666.android.mvp.model.dto.OrderDTO;
+import com.imei666.android.mvp.view.activity.ItemDetailActivity;
+import com.imei666.android.mvp.view.activity.OrderDetailActivity;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 import java.util.List;
@@ -68,13 +73,38 @@ public class OrderListAdapter extends BaseAdapter {
             viewHolder.kefu = (Button) view.findViewById(R.id.orderlist_kefu);
             viewHolder.detail = (Button) view.findViewById(R.id.orderlist_itemdetail);
             viewHolder.pay = (Button) view.findViewById(R.id.orderlist_gopay);
-
+            viewHolder.mMainLayout = (RelativeLayout)view.findViewById(R.id.orderlist_item_main_layout);
 
             view.setTag(viewHolder);
         }else {
             viewHolder = (ViewHolder)view.getTag();
         }
-        OrderDTO dto = mDatas.get(i);
+        final OrderDTO dto = mDatas.get(i);
+        viewHolder.mMainLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(mContext, OrderDetailActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putSerializable("order",dto);
+                intent.putExtras(bundle);
+                mContext.startActivity(intent);
+            }
+        });
+        if (dto.getOrderStatus()==3){
+            viewHolder.detail.setText("再次购买");
+        }else {
+            viewHolder.detail.setText("项目详情");
+        }
+        viewHolder.detail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(mContext, ItemDetailActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putLong("id",dto.getItemId());
+                intent.putExtras(bundle);
+                mContext.startActivity(intent);
+            }
+        });
         viewHolder.orderid.setText("订单号: "+dto.getId());
         viewHolder.itemname.setText(dto.getItemName());
         switch (dto.getOrderStatus()){
@@ -112,5 +142,6 @@ public class OrderListAdapter extends BaseAdapter {
         public Button kefu;
         public Button detail;
         public Button pay;
+        public RelativeLayout mMainLayout;
     }
 }
