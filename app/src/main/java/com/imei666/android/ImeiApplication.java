@@ -4,6 +4,7 @@ import android.app.Application;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.util.Log;
+import android.widget.Toast;
 
 import com.imei666.android.utils.Constants;
 import com.imei666.android.utils.CrashHandler;
@@ -28,6 +29,7 @@ import com.zhy.http.okhttp.OkHttpUtils;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
+import es.dmoral.toasty.Toasty;
 import okhttp3.OkHttpClient;
 
 public class ImeiApplication extends Application{
@@ -55,6 +57,7 @@ public class ImeiApplication extends Application{
             public void onSuccess(Object data, int flag) {
                 //token在设备卸载重装的时候有可能会变
                 Constants.TENCENT_XINGE_TOKEN = (String) data;
+                Toasty.info(getApplicationContext(),"data = "+data, Toast.LENGTH_SHORT).show();
                 Log.d("TPush", "注册成功，设备token为：" + data);
                 XGPushManager.bindAccount(getApplicationContext(), "imei_xinge");
             }

@@ -1,7 +1,10 @@
 package com.imei666.android.mvp.view.activity;
 
 import android.Manifest;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -20,6 +23,8 @@ import com.imei666.android.mvp.view.fragment.HomepageFragment;
 import com.imei666.android.mvp.view.fragment.ItempageFragment;
 import com.imei666.android.mvp.view.fragment.MorepageFragment;
 import com.imei666.android.mvp.view.fragment.MsgpageFragment;
+import com.imei666.android.utils.Constants;
+import com.imei666.android.utils.MessageNotificationDispatcher;
 import com.lljjcoder.style.citylist.CityListSelectActivity;
 import com.lljjcoder.style.citylist.bean.CityInfoBean;
 import com.lljjcoder.style.citylist.utils.CityListLoader;
@@ -49,13 +54,32 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
     TextView mText4;
     ImageView mImg1,mImg2,mImg3,mImg4;
     FragmentManager mFragmentManager;
-
+    private BroadcastReceiver mMessageReceiver;
     public void goSelectCity(){
         Intent intent = new Intent(MainActivity.this, CityListSelectActivity.class);
         startActivityForResult(intent, CityListSelectActivity.CITY_SELECT_RESULT_FRAG);
     }
 
+    public void regMessageListener(String name, MessageNotificationDispatcher.MessageListener listener){
+        MessageNotificationDispatcher.getInstance().regMessageNotification(name,listener);
+    }
 
+    //注册消息message通知
+    private void regMessageBroadcast(){
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(Constants.NEW_MSG_ACTION);
+        mMessageReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                Bundle bundle = intent.getExtras();
+                if (bundle==null||bundle.getString("msg")==null||bundle.getString("msg").trim().equals("")){
+                    return;
+                }
+                MessageNotificationDispatcher.getInstance().notifyAll(bundle.getString("msg"));
+            }
+        };
+        registerReceiver(mMessageReceiver,filter);
+    }
 
     private void asyncInitCityData(){
         new Thread(new Runnable() {
@@ -73,6 +97,7 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
         ButterKnife.bind(this);
         asyncInitCityData();
         requireSomePermission();
+
         mLayout1 = (LinearLayout)findViewById(R.id.frag1);
         mLayout2 = (LinearLayout)findViewById(R.id.frag2);
         mLayout3 = (LinearLayout)findViewById(R.id.frag3);
@@ -118,7 +143,7 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
         mFragmentManager.beginTransaction().add(R.id.details, mHomepageFragment,"homepage").commitAllowingStateLoss();
         mCurFragment = mHomepageFragment;
         updateDocker();
-
+        regMessageBroadcast();
     }
 
     private void addOrShowFragment(FragmentTransaction transaction, BaseFragment fragment, int id, String tag) {
@@ -236,6 +261,16 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
 
                 Toasty.info(MainActivity.this,"城市： " + cityInfoBean.getName(), Toast.LENGTH_SHORT, true).show();
             }
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        try{
+            unregisterReceiver(mMessageReceiver);
+        }catch (Exception e){
+
         }
     }
 }

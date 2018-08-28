@@ -2,6 +2,7 @@ package com.imei666.android.utils;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -143,25 +144,9 @@ public class XinGePushReceiver extends XGPushBaseReceiver {
     @Override
     public void onTextMessage(Context context, XGPushTextMessage message) {
         // TODO Auto-generated method stub
-        String text = "收到消息:" + message.toString();
-        // 获取自定义key-value
-        String customContent = message.getCustomContent();
-        if (customContent != null && customContent.length() != 0) {
-            try {
-                JSONObject obj = JSONObject.parseObject(customContent);
-                // key1为前台配置的key
-                if (obj.containsKey("key")) {
-                    String value = obj.getString("key");
-                    Log.d(LogTag, "get custom value:" + value);
-                }
-                // ...
-            } catch (JSONException e) {
-                e.printStackTrace();
-            }
-        }
-        //在这里写消息处理代码
-        // APP自主处理消息的过程...
-        Log.d(LogTag, text);
-        show(context, text);
+       //{"content":"我是周鹏","id":0,"messageType":0,"recverId":1,"recverName":"i美er_153365145560894","sendTime":"2018-08-28 14:45:19","senderId":1,"senderName":"i美er_153365145560894","status":0}
+        Bundle bundle = new Bundle();
+        bundle.putString("msg",message.getContent());
+        BroadCastUtil.getInstance().sendBroadcast(Constants.NEW_MSG_ACTION,bundle);
     }
 }
