@@ -82,6 +82,8 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
                 }
                 MessageDTO dto = JSONObject.parseObject(bundle.getString("msg"),MessageDTO.class);
                 DBUtil.getInstance(ImeiApplication.getInstace()).getDaoSession().getMessageDTODao().insert(dto);
+                Toasty.info(MainActivity.this,"db = "+DBUtil.getInstance(ImeiApplication.getInstace()).getDaoSession().getMessageDTODao().queryBuilder().orderDesc(MessageDTODao.Properties.Id).list().get(0).getContent(),Toast.LENGTH_SHORT).show();
+
                 MessageNotificationDispatcher.getInstance().notifyAll(bundle.getString("msg"));
             }
         };

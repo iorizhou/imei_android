@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PagingListView/PagingListView.iml" filepath="$PROJECT_DIR$/PagingListView/PagingListView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/chat.iml" filepath="$PROJECT_DIR$/chat/chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/citypickerview/citypickerview.iml" filepath="$PROJECT_DIR$/citypickerview/citypickerview.iml" />
       <module fileurl="file://$PROJECT_DIR$/imei_android.iml" filepath="$PROJECT_DIR$/imei_android.iml" />
     </modules>

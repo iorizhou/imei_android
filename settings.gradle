@@ -1,1 +1,1 @@
-include ':app',':PagingListView',':citypickerview'
+include ':app',':PagingListView',':citypickerview',':chat'
