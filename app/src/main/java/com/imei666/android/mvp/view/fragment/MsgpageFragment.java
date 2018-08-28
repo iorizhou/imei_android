@@ -20,7 +20,11 @@ public class MsgpageFragment extends BaseFragment {
         ((MainActivity)getActivity()).regMessageListener("msg_fragment", new MessageNotificationDispatcher.MessageListener() {
             @Override
             public void onMessage(String content) {
-                Toasty.info(getActivity(),"消息来了 "+content, Toast.LENGTH_SHORT).show();
+                try{
+                    Toasty.info(getActivity(),"消息来了 "+content, Toast.LENGTH_SHORT).show();
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
             }
         });
     }

@@ -17,7 +17,12 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.alibaba.fastjson.JSONObject;
+import com.imei666.android.ImeiApplication;
 import com.imei666.android.R;
+import com.imei666.android.db.DBUtil;
+import com.imei666.android.mvp.model.dto.MessageDTO;
+import com.imei666.android.mvp.model.dto.MessageDTODao;
 import com.imei666.android.mvp.view.fragment.BaseFragment;
 import com.imei666.android.mvp.view.fragment.HomepageFragment;
 import com.imei666.android.mvp.view.fragment.ItempageFragment;
@@ -75,6 +80,8 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
                 if (bundle==null||bundle.getString("msg")==null||bundle.getString("msg").trim().equals("")){
                     return;
                 }
+                MessageDTO dto = JSONObject.parseObject(bundle.getString("msg"),MessageDTO.class);
+                DBUtil.getInstance(ImeiApplication.getInstace()).getDaoSession().getMessageDTODao().insert(dto);
                 MessageNotificationDispatcher.getInstance().notifyAll(bundle.getString("msg"));
             }
         };
