@@ -191,10 +191,7 @@ public class ChatDetailAdapter extends BaseAdapter {
                 holder.img_sendfail.setVisibility(View.GONE);
                 break;
         }
-        if (!data.isOwnSend()){
-            holder.progress.setVisibility(View.GONE);
-            holder.img_sendfail.setVisibility(View.GONE);
-        }
+
         return v;
     }
 

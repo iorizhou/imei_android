@@ -72,5 +72,9 @@
                 <action android:name="com.tencent.android.tpush.action.FEEDBACK" />
             </intent-filter>
         </receiver>
+
+        <service android:name=".service.MessageService"
+            android:label="MessageService"
+            android:exported="false" />
     </application>
 </manifest>

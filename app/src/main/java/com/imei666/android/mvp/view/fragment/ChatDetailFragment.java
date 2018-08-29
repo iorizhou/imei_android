@@ -1,10 +1,14 @@
 package com.imei666.android.mvp.view.fragment;
 
 import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Context;
 import android.content.Intent;
+import android.content.ServiceConnection;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -26,6 +30,7 @@ import com.imei666.android.mvp.model.dto.MessageListDTODao;
 import com.imei666.android.mvp.model.dto.OrderDTO;
 import com.imei666.android.mvp.view.activity.MainActivity;
 import com.imei666.android.net.HttpPostTask;
+import com.imei666.android.service.MessageService;
 import com.imei666.android.utils.MessageNotificationDispatcher;
 import com.imei666.android.utils.URLConstants;
 import com.imei666.android.utils.adapter.ChatDetailAdapter;
@@ -68,12 +73,32 @@ public class ChatDetailFragment extends BaseFragment {
 
     List<MessageDTO> datas = new ArrayList<MessageDTO>();
     private ChatDetailAdapter adapter;
+    private MessageService mMsgService;
 
 
+
+    ServiceConnection serviceConnection = new ServiceConnection() {
+        @Override
+        public void onServiceConnected(ComponentName componentName, IBinder iBinder) {
+            MessageService.MyBinder binder = (MessageService.MyBinder)iBinder;
+            Toasty.info(getActivity(),"service call "+binder.getService().getHello(),Toast.LENGTH_SHORT).show();
+            mMsgService = binder.getService();
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName componentName) {
+
+        }
+    };
+    private void bindMessageService(){
+        Intent intent = new Intent(getActivity(), MessageService.class);
+        getActivity().bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE);
+    }
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mFriendId = getArguments().getLong("friendId");
+        bindMessageService();
     }
 
     @Nullable
@@ -114,52 +139,7 @@ public class ChatDetailFragment extends BaseFragment {
 
     }
 
-    private void sendMsg(String content, final MessageDTO tmpMsg){
-        Map<String,String> paramMap = new HashMap<String, String>();
 
-        paramMap.put("userId","1");
-        paramMap.put("recvId",mFriendId+"");
-        paramMap.put("messageType",0+"");
-        paramMap.put("content",content);
-        new HttpPostTask().doPost(URLConstants.SEND_MSG, paramMap, new StringCallback() {
-            @Override
-            public void onError(Call call, Exception e, int id) {
-
-            }
-
-            @Override
-            public void onResponse(String response, int id) {
-
-                JSONObject jsonObject = JSONObject.parseObject(response);
-                if (!jsonObject.getString("msgCode").equals("0")){
-
-                    return;
-                }
-                MessageDTO dto = JSON.parseObject(jsonObject.getString("datas"),MessageDTO.class);
-                boolean isOWnSend = 1==dto.getSenderId()?true:false;
-                dto.setOwnSend(isOWnSend);
-                dto.setSendStatus(1);
-                if (dto==null){
-                    return;
-                }
-                DBUtil.getInstance(getActivity()).getDaoSession().getMessageDTODao().insert(dto);
-                datas.remove(tmpMsg);
-                datas.add(dto);
-                adapter.refresh(datas);
-
-                //记得更新messagelist
-
-                MessageListDTO messageListDTO = new MessageListDTO();
-                long friendId = isOWnSend?dto.getRecverId():dto.getSenderId();
-                messageListDTO.setFriendId(friendId);
-                messageListDTO.setContent(dto.getContent());
-                messageListDTO.setFriendAvatar(isOWnSend?dto.getRecverAvatar():dto.getSenderAvatar());
-                messageListDTO.setFriendName(isOWnSend?dto.getRecverName():dto.getSenderName());
-                messageListDTO.setTime(dto.getSendTime());
-                DBUtil.getInstance(getActivity()).getDaoSession().getMessageListDTODao().insertOrReplace(messageListDTO);
-            }
-        });
-    }
 
     private void initListView() {
 
@@ -171,16 +151,31 @@ public class ChatDetailFragment extends BaseFragment {
         box.setOnOperationListener(new OnOperationListener() {
             @Override
             public void send(String content) {
-                MessageDTO dto = new MessageDTO();
-                dto.setSendStatus(0);
-                dto.setOwnSend(true);
-                dto.setContent(content);
-                dto.setMessageType(0);
-                dto.setRecverId(mFriendId);
-                dto.setSenderId(1);
-                datas.add(dto);
+                final MessageDTO tmpMsg = new MessageDTO();
+                tmpMsg.setSendStatus(0);
+                tmpMsg.setOwnSend(true);
+                tmpMsg.setContent(content);
+                tmpMsg.setMessageType(0);
+                tmpMsg.setRecverId(mFriendId);
+                tmpMsg.setSenderId(1);
+                datas.add(tmpMsg);
                 adapter.refresh(datas);
-                sendMsg(content,dto);
+                if (mMsgService!=null){
+                    mMsgService.sendMsg(content, tmpMsg, mFriendId, new MessageService.SendMsgListener() {
+                        @Override
+                        public void onSendSuccess(MessageDTO messageDTO) {
+                            loadMsg();
+                            adapter.refresh(datas);
+                        }
+
+                        @Override
+                        public void onSendFailed(int msgCode, String msg) {
+                            //找出该tmpMsg在datas队列里的index,更新它
+                            tmpMsg.setSendStatus(2);
+                            adapter.refresh(datas);
+                        }
+                    });
+                }
             }
 
             @Override

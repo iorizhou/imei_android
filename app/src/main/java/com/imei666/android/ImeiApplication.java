@@ -72,8 +72,8 @@ public class ImeiApplication extends Application{
     private void initOkHttp(){
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
 //                .addInterceptor(new LoggerInterceptor("TAG"))
-                .connectTimeout(10000L, TimeUnit.MILLISECONDS)
-                .readTimeout(10000L, TimeUnit.MILLISECONDS)
+                .connectTimeout(3000L, TimeUnit.MILLISECONDS)
+                .readTimeout(3000L, TimeUnit.MILLISECONDS)
                 //其他配置
                 .build();
 

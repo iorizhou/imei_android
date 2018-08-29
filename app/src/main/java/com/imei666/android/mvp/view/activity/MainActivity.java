@@ -2,9 +2,12 @@ package com.imei666.android.mvp.view.activity;
 
 import android.Manifest;
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.ServiceConnection;
+import android.os.IBinder;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -29,6 +32,7 @@ import com.imei666.android.mvp.view.fragment.HomepageFragment;
 import com.imei666.android.mvp.view.fragment.ItempageFragment;
 import com.imei666.android.mvp.view.fragment.MorepageFragment;
 import com.imei666.android.mvp.view.fragment.MsgpageFragment;
+import com.imei666.android.service.MessageService;
 import com.imei666.android.utils.Constants;
 import com.imei666.android.utils.MessageNotificationDispatcher;
 import com.lljjcoder.style.citylist.CityListSelectActivity;
@@ -60,46 +64,34 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
     TextView mText4;
     ImageView mImg1,mImg2,mImg3,mImg4;
     FragmentManager mFragmentManager;
-    private BroadcastReceiver mMessageReceiver;
+
+    ServiceConnection serviceConnection = new ServiceConnection() {
+        @Override
+            public void onServiceConnected(ComponentName componentName, IBinder iBinder) {
+                MessageService.MyBinder binder = (MessageService.MyBinder)iBinder;
+                Toasty.info(MainActivity.this,"service call "+binder.getService().getHello(),Toast.LENGTH_SHORT).show();
+            }
+
+        @Override
+        public void onServiceDisconnected(ComponentName componentName) {
+
+        }
+    };
+
+
+
+
     public void goSelectCity(){
         Intent intent = new Intent(MainActivity.this, CityListSelectActivity.class);
         startActivityForResult(intent, CityListSelectActivity.CITY_SELECT_RESULT_FRAG);
     }
 
-    public void regMessageListener(String name, MessageNotificationDispatcher.MessageListener listener){
-        MessageNotificationDispatcher.getInstance().regMessageNotification(name,listener);
+    private void bindMessageService(){
+        Intent intent = new Intent(this, MessageService.class);
+        bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE);
     }
 
-    //注册消息message通知
-    private void regMessageBroadcast(){
-        IntentFilter filter = new IntentFilter();
-        filter.addAction(Constants.NEW_MSG_ACTION);
-        mMessageReceiver = new BroadcastReceiver() {
-            @Override
-            public void onReceive(Context context, Intent intent) {
-                Bundle bundle = intent.getExtras();
-                if (bundle==null||bundle.getString("msg")==null||bundle.getString("msg").trim().equals("")){
-                    return;
-                }
-                MessageDTO dto = JSONObject.parseObject(bundle.getString("msg"),MessageDTO.class);
-                boolean isOWnSend = 1==dto.getSenderId()?true:false;
-                dto.setOwnSend(isOWnSend);
-                DBUtil.getInstance(ImeiApplication.getInstace()).getDaoSession().getMessageDTODao().insert(dto);
-                //消息存好了，此时开始更新messagelist
 
-                MessageListDTO messageListDTO = new MessageListDTO();
-                long friendId = isOWnSend?dto.getRecverId():dto.getSenderId();
-                messageListDTO.setFriendId(friendId);
-                messageListDTO.setContent(dto.getContent());
-                messageListDTO.setFriendAvatar(isOWnSend?dto.getRecverAvatar():dto.getSenderAvatar());
-                messageListDTO.setFriendName(isOWnSend?dto.getRecverName():dto.getSenderName());
-                messageListDTO.setTime(dto.getSendTime());
-                DBUtil.getInstance(MainActivity.this).getDaoSession().getMessageListDTODao().insertOrReplace(messageListDTO);
-                MessageNotificationDispatcher.getInstance().notifyAll(bundle.getString("msg"));
-            }
-        };
-        registerReceiver(mMessageReceiver,filter);
-    }
 
     private void asyncInitCityData(){
         new Thread(new Runnable() {
@@ -110,9 +102,12 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
         }).start();
     }
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        bindMessageService();
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         asyncInitCityData();
@@ -163,7 +158,7 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
         mFragmentManager.beginTransaction().add(R.id.details, mHomepageFragment,"homepage").commitAllowingStateLoss();
         mCurFragment = mHomepageFragment;
         updateDocker();
-        regMessageBroadcast();
+
     }
 
     private void addOrShowFragment(FragmentTransaction transaction, BaseFragment fragment, int id, String tag) {
@@ -288,7 +283,7 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
     protected void onDestroy() {
         super.onDestroy();
         try{
-            unregisterReceiver(mMessageReceiver);
+            unbindService(serviceConnection);
         }catch (Exception e){
 
         }
