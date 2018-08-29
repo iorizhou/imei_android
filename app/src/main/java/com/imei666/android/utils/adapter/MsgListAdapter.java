@@ -13,25 +13,26 @@ import android.widget.TextView;
 import com.imei666.android.R;
 import com.imei666.android.mvp.model.dto.ItemDTO;
 import com.imei666.android.mvp.model.dto.MessageDTO;
+import com.imei666.android.mvp.model.dto.MessageListDTO;
 import com.nostra13.universalimageloader.core.ImageLoader;
 
 import java.util.List;
 
 public class MsgListAdapter extends BaseAdapter {
 
-    private List<MessageDTO> mDatas;
+    private List<MessageListDTO> mDatas;
     private Context mContext;
     private LayoutInflater mInflater;
     private ImageLoader mImageLoader;
     private Fragment mFragment;
-    public MsgListAdapter(Context ctx, List<MessageDTO> datas){
+    public MsgListAdapter(Context ctx, List<MessageListDTO> datas){
         this.mContext = ctx;
         mInflater = LayoutInflater.from(this.mContext);
         this.mDatas = datas;
         mImageLoader = ImageLoader.getInstance();
     }
 
-    public void setDatas(List<MessageDTO> data){
+    public void setDatas(List<MessageListDTO> data){
         this.mDatas = data;
     }
 
@@ -64,10 +65,10 @@ public class MsgListAdapter extends BaseAdapter {
         }else {
             viewHolder = (ViewHolder)view.getTag();
         }
-        MessageDTO dto = mDatas.get(i);
-        viewHolder.name.setText(dto.getSenderName());
+        MessageListDTO dto = mDatas.get(i);
+        viewHolder.name.setText(dto.getFriendName());
         viewHolder.content.setText(dto.getContent());
-
+        ImageLoader.getInstance().displayImage(dto.getFriendAvatar(),viewHolder.cover);
         return view;
     }
 

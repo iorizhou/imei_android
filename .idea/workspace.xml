@@ -7,95 +7,31 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_CUSTOM_FILTER" value="  " />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd6ea107-0e57-4c4d-aa33-1f9cf666c4ee" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/PagingListView/PagingListView.iml" afterPath="$PROJECT_DIR$/PagingListView/PagingListView.iml" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/generated/mockable-android-28.v3.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/generated/source/buildConfig/release/com/paging/listview/BuildConfig.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/generated/source/r/release/com/paging/listview/R.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/blame/res/release/multi-v2/values.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/blame/res/release/single/layout.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/BuildConfig.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/LoadingView.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/PagingBaseAdapter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/PagingListView$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/PagingListView$Pagingable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/PagingListView.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/R$dimen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/R$id.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/R$layout.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/R$string.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/classes/release/com/paging/listview/R.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/extractedTypedefs/release/typedefs.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/packageReleaseAssets/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/packageReleaseResources/merged.dir/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/packageReleaseResources/merger.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/release-mergeJavaRes/merge-state" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/incremental/release-mergeJniLibs/merge-state" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/intermediate-jars/release/classes.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/intermediate-jars/release/res.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/javaPrecompile/release/annotationProcessors.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/javaPrecompile/test/debug/annotationProcessors.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/javaPrecompile/test/release/annotationProcessors.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/manifests/aapt/release/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/manifests/aapt/release/output.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/manifests/full/release/output.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/packaged-classes/release/classes.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/packaged_res/release/layout/loading_view.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/packaged_res/release/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/res/compiled/release/layout_loading_view.xml.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/res/compiled/release/values_values.arsc.flat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/res/merged/release/layout/loading_view.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/res/merged/release/values/values.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/symbols/release/R.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/transforms/mergeJavaRes/release/0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/transforms/mergeJavaRes/release/__content__.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/intermediates/transforms/mergeJniLibs/release/__content__.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/outputs/aar/PagingListView-release.aar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/outputs/logs/manifest-merger-release-report.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/reports/lint-results.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/PagingListView/build/reports/lint-results.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/MessageDTO.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/MessageDTO.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/api-versions-14-28.bin" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/typos-en.txt-2.bin" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/MsgListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/MsgListAdapter.java" />
+      <change beforePath="$PROJECT_DIR$/chat/chat.iml" afterPath="$PROJECT_DIR$/chat/chat.iml" />
       <change beforePath="$PROJECT_DIR$/citypickerview/citypickerview.iml" afterPath="$PROJECT_DIR$/citypickerview/citypickerview.iml" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,47 +54,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ChatDetailFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ChatDetailFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="323">
+              <caret line="152" column="78" lean-forward="true" selection-start-line="152" selection-start-column="78" selection-end-line="152" selection-end-column="78" />
               <folding>
-                <element signature="e#1341#1350#0" expanded="true" />
+                <element signature="e#3708#3899#0" expanded="true" />
+                <element signature="e#3898#3899#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MsgpageFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MsgpageFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="83" column="11" lean-forward="true" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+            <state relative-caret-position="166">
+              <caret line="92" column="7" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatDetailActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/ChatDetailActivity.java">
+      <file leaf-file-name="MsgListAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/MsgListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="55">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ChatActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chat/src/main/java/org/kymjs/chat/ChatActivity.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="145">
-              <caret line="49" column="65" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="65" />
+              <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MessageListDTO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/MessageListDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#1646#1655#0" expanded="true" />
-                <element signature="e#1737#1738#0" expanded="true" />
-                <element signature="e#1791#1792#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#1139#1140#0" expanded="true" />
+                <element signature="e#1173#1174#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
+                <element signature="e#1249#1250#0" expanded="true" />
+                <element signature="e#1287#1288#0" expanded="true" />
+                <element signature="e#1318#1319#0" expanded="true" />
+                <element signature="e#1345#1346#0" expanded="true" />
+                <element signature="e#1385#1386#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#1450#1451#0" expanded="true" />
+                <element signature="e#1481#1482#0" expanded="true" />
+                <element signature="e#1527#1528#0" expanded="true" />
+                <element signature="e#1567#1568#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,13 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>paint</find>
-      <find>package com\.imei666\.android\.mvp\.view\;\n\npublic class LoadingDialog \{\n\n    \n\n        \/\*\*\n         \* 得到自定义的progressDialog\n         \*\n         \* \@param context\n         \* \@param msg\n         \* \@return\n         \*\/\n        public static Dialog createLoadingDialog\(Context context\, String msg\) \{\n\n            \/\/ 首先得到整个View\n            View view \= LayoutInflater\.from\(context\)\.inflate\(\n                    R\.layout\.loading_dialog_view\, null\)\;\n            \/\/ 获取整个布局\n            LinearLayout layout \= \(LinearLayout\) view\n                    \.findViewById\(R\.id\.dialog_view\)\;\n            \/\/ 页面中的Img\n            ImageView img \= \(ImageView\) view\.findViewById\(R\.id\.img\)\;\n            \/\/ 页面中显示文本\n            TextView tipText \= \(TextView\) view\.findViewById\(R\.id\.tipTextView\)\;\n\n            \/\/ 加载动画\，动画用户使img图片不停的旋转\n            Animation animation \= AnimationUtils\.loadAnimation\(context\,\n                    R\.anim\.dialog_load_animation\)\;\n            \/\/ 显示动画\n            img\.startAnimation\(animation\)\;\n            \/\/ 显示文本\n            tipText\.setText\(msg\)\;\n\n            \/\/ 创建自定义样式的Dialog\n            Dialog loadingDialog \= new Dialog\(context\, R\.style\.loading_dialog\)\;\n            \/\/ 设置返回键无效\n            loadingDialog\.setCancelable\(false\)\;\n            loadingDialog\.setContentView\(layout\, new LinearLayout\.LayoutParams\(\n                    LinearLayout\.LayoutParams\.MATCH_PARENT\,\n                    LinearLayout\.LayoutParams\.MATCH_PARENT\)\)\;\n\n            return loadingDialog\;\n        \}\n\n\}\n</find>
-      <find>mViewPager</find>
-      <find>dia</find>
-      <find>mIndicator</find>
-      <find>mDiaryViewPager</find>
-      <find>mTabFragmentList</find>
       <find>toasty</find>
       <find>mDialog</find>
       <find>450</find>
@@ -196,7 +151,6 @@
       <find>alipay_layout</find>
       <find>mListView</find>
       <find>mDiaryTypeIndicator</find>
-      <find>request</find>
       <find>GET_ORDER_DETAIL</find>
       <find>orderdetail_orderid</find>
       <find>oncreateview</find>
@@ -204,6 +158,14 @@
       <find>url</find>
       <find>createor</find>
       <find>greendao</find>
+      <find>newinstance</find>
+      <find>newInStance</find>
+      <find>oncreate</find>
+      <find>oncreate(</find>
+      <find>request</find>
+      <find>tv_chatcontent</find>
+      <find>status</find>
+      <find>chat_item_avatar</find>
       <find>onde</find>
     </findStrings>
     <replaceStrings>
@@ -5350,10 +5312,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_payorder.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/PayOrderFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_more.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/view_morefragment_headerview.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/MorepageFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_orderlist.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/OrderListActivity.java" />
@@ -5364,7 +5322,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/InvalidOrderListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_orderlist.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/BaseActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/OrderListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/OrderDetailActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_orderdetail.xml" />
@@ -5389,18 +5346,23 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/SwipeListView.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/db/DBUtil.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/MessageDTO.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_msg.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/MsgListAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/item_msg.xml" />
         <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chatdetail.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/ChatDetailActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_chatdetail.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/MessageDTO.java" />
+        <option value="$PROJECT_DIR$/chat/src/main/res/layout/chat_item_list_left.xml" />
+        <option value="$PROJECT_DIR$/chat/src/main/res/layout/chat_item_list_right.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/ChatDetailAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/MessageListDTO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/MsgListAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java" />
       </list>
     </option>
   </component>
@@ -5427,6 +5389,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -5513,6 +5476,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -5529,6 +5494,12 @@
               <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
               <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -5599,7 +5570,7 @@
               <item name="imei666" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
               <item name="mvp" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
@@ -5612,8 +5583,8 @@
               <item name="imei666" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
               <item name="mvp" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
@@ -5625,9 +5596,20 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="imei666" type="462c0819:PsiDirectoryNode" />
               <item name="android" type="462c0819:PsiDirectoryNode" />
-              <item name="mvp" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="fragment" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="imei666" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
@@ -5673,20 +5655,85 @@
               <item name="res" type="462c0819:PsiDirectoryNode" />
               <item name="values" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="kymjs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="kymjs" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imei_android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imei_android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="chat" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="kymjs" type="462c0819:PsiDirectoryNode" />
+              <item name="chat" type="462c0819:PsiDirectoryNode" />
+              <item name="adapter" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="msgpage&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java&#10;chatac&#9;FILE&#9;file:///Users/iorizhou/imei_android/chat/src/main/java/org/kymjs/chat/ChatActivity.java&#10;msgpa&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java&#10;androidma&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/AndroidManifest.xml&#10;payor&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/PayOrderActivity.java&#10;msgf&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java&#10;ChatActivity&#9;PSI&#9;JAVA://org.kymjs.chat.ChatActivity&#10;settings&#9;FILE&#9;file:///Users/iorizhou/imei_android/settings.gradle&#10;maina&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/MainActivity.java&#10;dbut&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/db/DBUtil.java&#10;MessageDTO&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/MessageDTO.java&#10;build.gr&#9;FILE&#9;file:///Users/iorizhou/imei_android/build.gradle&#10;build.gradle&#9;FILE&#9;file:///Users/iorizhou/imei_android/build.gradle&#10;build.gra&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;messagedto&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/MessageDTO.java&#10;mainac&#9;PSI&#9;JAVA://com.imei666.android.mvp.view.activity.MainActivity&#10;Consta&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/Constants.java&#10;urlcon&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/URLConstants.java&#10;imeiapp&#9;PSI&#9;JAVA://com.imei666.android.ImeiApplication&#10;gradle.&#9;FILE&#9;file:///Users/iorizhou/imei_android/gradle.properties&#10;orderdetaila&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/OrderDetailActivity.java&#10;orderdetailf&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/OrderDetailFragment.java&#10;createorderfr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/CreateOrderFragment.java&#10;orderdto&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/OrderDTO.java&#10;itemdto&#9;PSI&#9;JAVA://com.imei666.android.mvp.model.dto.ItemDTO&#10;itemdetail&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/ItemDetailActivity.java&#10;OrderDetailActivity&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/OrderDetailActivity.java&#10;orderfollow&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/OrderFollowFragment.java&#10;popup&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/view_popupwindow_item_detail_createorder.xml&#10;itemdetailf&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ItemDetailFragment.java&#10;orderlista&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/OrderListActivity.java&#10;orderd&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/OrderDTO.java&#10;ORDERLISTADA&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/adapter/OrderListAdapter.java&#10;basefragment&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/BaseFragment.java&#10;activity_order&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/activity_orderlist.xml&#10;itemdetaila&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/ItemDetailActivity.java&#10;orderlistac&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/OrderListActivity.java&#10;orderlist&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/adapter/OrderListAdapter.java&#10;orderlistada&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/adapter/OrderListAdapter.java&#10;invali&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/InvalidOrderListFragment.java&#10;waittouse&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/WaitToUseOrderListFragment.java&#10;waitto&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/WaitToPayOrderListFragment.java&#10;view_mo&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/view_morefragment_headerview.xml&#10;fragment_mor&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/fragment_more.xml&#10;morefr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/MorepageFragment.java&#10;payorderf&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/PayOrderFragment.java&#10;order&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/OrderListActivity.java&#10;urlco&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/URLConstants.java&#10;homepagef&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;homepagefr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java" />
+    <property name="SearchEverywhereHistoryKey" value="chatdetailf&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java&#10;messagelist&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/MessageListDTO.java&#10;maina&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/MainActivity.java&#10;msgpage&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java&#10;messagedto&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/MessageDTO.java&#10;chatdetailada&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/adapter/ChatDetailAdapter.java&#10;msg&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java&#10;orderlistf&#9;PSI&#9;JAVA://com.imei666.android.mvp.view.fragment.OrderListBaseFragment&#10;orderdetailf&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/OrderDetailFragment.java&#10;chatdetail&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java&#10;homepage&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java&#10;chatdetailfr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java&#10;messagedt&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/MessageDTO.java&#10;chatdetaila&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/adapter/ChatDetailAdapter.java&#10;broad&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/BroadCastUtil.java&#10;Xing&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/XinGePushReceiver.java&#10;chatac&#9;FILE&#9;file:///Users/iorizhou/imei_android/chat/src/main/java/org/kymjs/chat/ChatActivity.java&#10;msgpa&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java&#10;androidma&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/AndroidManifest.xml&#10;payor&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/PayOrderActivity.java&#10;msgf&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java&#10;ChatActivity&#9;PSI&#9;JAVA://org.kymjs.chat.ChatActivity&#10;settings&#9;FILE&#9;file:///Users/iorizhou/imei_android/settings.gradle&#10;dbut&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/db/DBUtil.java&#10;MessageDTO&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/MessageDTO.java&#10;build.gr&#9;FILE&#9;file:///Users/iorizhou/imei_android/build.gradle&#10;build.gradle&#9;FILE&#9;file:///Users/iorizhou/imei_android/build.gradle&#10;build.gra&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/build.gradle&#10;mainac&#9;PSI&#9;JAVA://com.imei666.android.mvp.view.activity.MainActivity&#10;Consta&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/Constants.java&#10;urlcon&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/URLConstants.java&#10;imeiapp&#9;PSI&#9;JAVA://com.imei666.android.ImeiApplication&#10;gradle.&#9;FILE&#9;file:///Users/iorizhou/imei_android/gradle.properties&#10;orderdetaila&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/OrderDetailActivity.java&#10;createorderfr&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/CreateOrderFragment.java&#10;orderdto&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/OrderDTO.java&#10;itemdto&#9;PSI&#9;JAVA://com.imei666.android.mvp.model.dto.ItemDTO&#10;itemdetail&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/ItemDetailActivity.java&#10;OrderDetailActivity&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/OrderDetailActivity.java&#10;orderfollow&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/OrderFollowFragment.java&#10;popup&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/view_popupwindow_item_detail_createorder.xml&#10;itemdetailf&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/ItemDetailFragment.java&#10;orderlista&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/OrderListActivity.java&#10;orderd&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/model/dto/OrderDTO.java&#10;ORDERLISTADA&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/adapter/OrderListAdapter.java&#10;basefragment&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/fragment/BaseFragment.java&#10;activity_order&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/res/layout/activity_orderlist.xml&#10;itemdetaila&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/ItemDetailActivity.java&#10;orderlistac&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/mvp/view/activity/OrderListActivity.java&#10;orderlist&#9;FILE&#9;file:///Users/iorizhou/imei_android/app/src/main/java/com/imei666/android/utils/adapter/OrderListAdapter.java" />
     <property name="DEBUGGABLE_DEVICE" value="xiaomi-mi_5-b5391644" />
     <property name="DEBUGGABLE_PROCESS" value="com.imei666.android" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -5925,7 +5972,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1417" height="796" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -5937,19 +5983,19 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31241083" sideWeight="0.49745455" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31241083" sideWeight="0.49745455" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3580599" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29018182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38944367" sideWeight="0.49745455" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29018182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21540657" sideWeight="0.49745455" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39942938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -5969,11 +6015,11 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38944367" sideWeight="0.49745455" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21540657" sideWeight="0.49745455" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -5982,9 +6028,9 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945454" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31241083" sideWeight="0.49745455" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31241083" sideWeight="0.49745455" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29018182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29018182" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952926" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -6052,125 +6098,40 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/MainActivity.java</url>
-          <line>82</line>
+          <line>83</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/ChatDetailActivity.java</url>
-          <line>19</line>
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java</url>
+          <line>72</line>
           <properties />
-          <option name="timeStamp" value="15" />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java</url>
+          <line>137</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="16" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/WaitToPayOrderListFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_popupwindow_item_detail_createorder.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="64" column="38" lean-forward="false" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_orderdetail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="45" column="41" lean-forward="false" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_orderdetail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/ItemDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="44" lean-forward="false" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ItemDetailFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="318" column="1" lean-forward="true" selection-start-line="318" selection-start-column="1" selection-end-line="318" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/ItemDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="28" column="4" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="51" column="31" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/CreateOrderFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2756">
-          <caret line="317" column="13" lean-forward="true" selection-start-line="317" selection-start-column="13" selection-end-line="317" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/OrderDetailFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="74" column="53" lean-forward="true" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
-          <folding>
-            <element signature="e#5992#6433#0" expanded="false" />
-            <element signature="e#6432#6433#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_itemdetail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="93" column="25" lean-forward="false" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_orderfollow.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -6276,14 +6237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/ImeiApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -6303,24 +6256,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/BroadCastUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/SwipeListView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/SwipeListView.java" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -6337,22 +6273,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/XinGePushReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="139" column="28" lean-forward="true" selection-start-line="139" selection-start-column="28" selection-end-line="139" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/MessageNotificationDispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/db/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -6362,14 +6282,6 @@
             <element signature="e#945#946#0" expanded="false" />
             <element signature="e#978#979#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/MessageDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -6390,22 +6302,6 @@
       </provider>
       <provider editor-type-id="android-designer2">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/MsgListAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="68" column="51" lean-forward="false" selection-start-line="68" selection-start-column="51" selection-end-line="68" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="84" column="57" lean-forward="false" selection-start-line="84" selection-start-column="57" selection-end-line="84" selection-end-column="57" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_msg.xml">
@@ -6522,39 +6418,232 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chat/src/main/java/org/kymjs/chat/ChatActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
+        <state relative-caret-position="150">
           <caret line="49" column="65" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="65" />
           <folding>
-            <element signature="e#1646#1655#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-            <element signature="e#1791#1792#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="false" />
+            <element signature="e#1791#1792#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java">
+    <entry file="file://$PROJECT_DIR$/chat/src/main/java/org/kymjs/chat/adapter/ChatAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        <state relative-caret-position="120">
+          <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/MessageNotificationDispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/src/main/java/org/kymjs/chat/bean/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/BroadCastUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/XinGePushReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="123" column="13" lean-forward="false" selection-start-line="123" selection-start-column="13" selection-end-line="123" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/HomepageFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="292" column="72" lean-forward="false" selection-start-line="292" selection-start-column="72" selection-end-line="292" selection-end-column="72" />
           <folding>
-            <element signature="e#1341#1350#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/DiaryListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="98" column="14" lean-forward="false" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/OrderDetailFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/OrderListBaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="68" column="11" lean-forward="false" selection-start-line="38" selection-start-column="8" selection-end-line="68" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/URLConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/greendao/com/imei666/android/mvp/model/dto/MessageDTODao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="195" column="13" lean-forward="false" selection-start-line="195" selection-start-column="13" selection-end-line="195" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/src/main/res/layout/chat_item_list_left.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chat/src/main/res/layout/chat_item_list_right.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/ChatDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="26" column="80" lean-forward="true" selection-start-line="26" selection-start-column="80" selection-end-line="26" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/ChatDetailAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2415">
+          <caret line="205" column="31" lean-forward="true" selection-start-line="205" selection-start-column="31" selection-end-line="205" selection-end-column="31" />
+          <folding>
+            <element signature="e#2275#2276#0" expanded="false" />
+            <element signature="e#2337#2338#0" expanded="false" />
+            <element signature="e#5758#6270#0" expanded="false" />
+            <element signature="e#6269#6270#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/MessageDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="e#724#725#0" expanded="false" />
+            <element signature="e#750#751#0" expanded="false" />
+            <element signature="e#803#804#0" expanded="false" />
+            <element signature="e#842#843#0" expanded="false" />
+            <element signature="e#878#879#0" expanded="false" />
+            <element signature="e#904#905#0" expanded="false" />
+            <element signature="e#957#958#0" expanded="false" />
+            <element signature="e#996#997#0" expanded="false" />
+            <element signature="e#1028#1029#0" expanded="false" />
+            <element signature="e#1050#1051#0" expanded="false" />
+            <element signature="e#1095#1096#0" expanded="false" />
+            <element signature="e#1126#1127#0" expanded="false" />
+            <element signature="e#1360#1361#0" expanded="false" />
+            <element signature="e#1386#1387#0" expanded="false" />
+            <element signature="e#3631#3632#0" expanded="false" />
+            <element signature="e#3664#3665#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/model/dto/MessageListDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1139#1140#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1287#1288#0" expanded="true" />
+            <element signature="e#1318#1319#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
+            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#1450#1451#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/utils/adapter/MsgListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/activity/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="68" column="16" lean-forward="false" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/MsgpageFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="83" column="11" lean-forward="true" selection-start-line="83" selection-start-column="11" selection-end-line="83" selection-end-column="11" />
+        <state relative-caret-position="166">
+          <caret line="92" column="7" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/imei666/android/mvp/view/fragment/ChatDetailFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="152" column="78" lean-forward="true" selection-start-line="152" selection-start-column="78" selection-end-line="152" selection-end-column="78" />
+          <folding>
+            <element signature="e#3708#3899#0" expanded="true" />
+            <element signature="e#3898#3899#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

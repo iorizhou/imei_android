@@ -23,6 +23,7 @@ import com.imei666.android.R;
 import com.imei666.android.db.DBUtil;
 import com.imei666.android.mvp.model.dto.MessageDTO;
 import com.imei666.android.mvp.model.dto.MessageDTODao;
+import com.imei666.android.mvp.model.dto.MessageListDTO;
 import com.imei666.android.mvp.view.fragment.BaseFragment;
 import com.imei666.android.mvp.view.fragment.HomepageFragment;
 import com.imei666.android.mvp.view.fragment.ItempageFragment;
@@ -81,9 +82,19 @@ public class MainActivity extends BaseFragmentActivity implements EasyPermission
                     return;
                 }
                 MessageDTO dto = JSONObject.parseObject(bundle.getString("msg"),MessageDTO.class);
+                boolean isOWnSend = 1==dto.getSenderId()?true:false;
+                dto.setOwnSend(isOWnSend);
                 DBUtil.getInstance(ImeiApplication.getInstace()).getDaoSession().getMessageDTODao().insert(dto);
-                Toasty.info(MainActivity.this,"db = "+DBUtil.getInstance(ImeiApplication.getInstace()).getDaoSession().getMessageDTODao().queryBuilder().orderDesc(MessageDTODao.Properties.Id).list().get(0).getContent(),Toast.LENGTH_SHORT).show();
+                //消息存好了，此时开始更新messagelist
 
+                MessageListDTO messageListDTO = new MessageListDTO();
+                long friendId = isOWnSend?dto.getRecverId():dto.getSenderId();
+                messageListDTO.setFriendId(friendId);
+                messageListDTO.setContent(dto.getContent());
+                messageListDTO.setFriendAvatar(isOWnSend?dto.getRecverAvatar():dto.getSenderAvatar());
+                messageListDTO.setFriendName(isOWnSend?dto.getRecverName():dto.getSenderName());
+                messageListDTO.setTime(dto.getSendTime());
+                DBUtil.getInstance(MainActivity.this).getDaoSession().getMessageListDTODao().insertOrReplace(messageListDTO);
                 MessageNotificationDispatcher.getInstance().notifyAll(bundle.getString("msg"));
             }
         };

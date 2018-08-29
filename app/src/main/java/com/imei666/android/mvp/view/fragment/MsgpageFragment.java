@@ -15,8 +15,11 @@ import com.imei666.android.R;
 import com.imei666.android.db.DBUtil;
 import com.imei666.android.mvp.model.dto.MessageDTO;
 import com.imei666.android.mvp.model.dto.MessageDTODao;
+import com.imei666.android.mvp.model.dto.MessageListDTO;
+import com.imei666.android.mvp.model.dto.MessageListDTODao;
 import com.imei666.android.mvp.view.activity.ChatDetailActivity;
 import com.imei666.android.mvp.view.activity.MainActivity;
+import com.imei666.android.utils.Constants;
 import com.imei666.android.utils.MessageNotificationDispatcher;
 import com.imei666.android.utils.adapter.MsgListAdapter;
 
@@ -33,17 +36,19 @@ public class MsgpageFragment extends BaseFragment {
     @BindView(R.id.msg_listview)
     ListView mListView;
 
-    private List<MessageDTO> mDatas;
+    private List<MessageListDTO> mDatas;
 
     private MsgListAdapter mAdapter;
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ((MainActivity)getActivity()).regMessageListener("msg_fragment", new MessageNotificationDispatcher.MessageListener() {
+        MessageNotificationDispatcher.getInstance().regMessageNotification("msg_fragment", new MessageNotificationDispatcher.MessageListener() {
             @Override
             public void onMessage(String content) {
                 try{
-                    Toasty.info(getActivity(),"消息来了 "+content, Toast.LENGTH_SHORT).show();
+                    mDatas = DBUtil.getInstance(getActivity()).getDaoSession().getMessageListDTODao().queryBuilder().orderDesc(MessageListDTODao.Properties.Time).list();
+                    mAdapter.setDatas(mDatas);
+                    mAdapter.notifyDataSetChanged();
                 }catch (Exception e){
                     e.printStackTrace();
                 }
@@ -65,22 +70,34 @@ public class MsgpageFragment extends BaseFragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        mDatas = DBUtil.getInstance(getActivity()).getDaoSession().getMessageDTODao().queryBuilder().orderDesc(MessageDTODao.Properties.SendTime).list();
+        mDatas = DBUtil.getInstance(getActivity()).getDaoSession().getMessageListDTODao().queryBuilder().orderDesc(MessageListDTODao.Properties.Time).list();
         mAdapter = new MsgListAdapter(getActivity(),mDatas);
         mListView.setAdapter(mAdapter);
+        String token  = Constants.TENCENT_XINGE_TOKEN;
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(getActivity(), ChatDetailActivity.class);
                 Bundle bundle = new Bundle();
-                long friendId = 0;
-                long senderId = mDatas.get(i).getSenderId();
-                long recverId = mDatas.get(i).getRecverId();
-                friendId = 1==senderId?recverId:senderId;
-                bundle.putLong("friendId",friendId);
+                bundle.putLong("friendId",mDatas.get(i).getFriendId());
                 intent.putExtras(bundle);
                 getActivity().startActivity(intent);
             }
         });
+
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        MessageNotificationDispatcher.getInstance().unregMessageNotification("msg_fragment");
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        mDatas = DBUtil.getInstance(getActivity()).getDaoSession().getMessageListDTODao().queryBuilder().orderDesc(MessageListDTODao.Properties.Time).list();
+        mAdapter.setDatas(mDatas);
+        mAdapter.notifyDataSetChanged();
     }
 }

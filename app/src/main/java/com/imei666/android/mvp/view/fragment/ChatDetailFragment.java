@@ -7,14 +7,32 @@ import android.os.Build;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.support.annotation.Nullable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.Toast;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.imei666.android.R;
+import com.imei666.android.db.DBUtil;
+import com.imei666.android.mvp.model.dto.MessageDTO;
+import com.imei666.android.mvp.model.dto.MessageDTODao;
+import com.imei666.android.mvp.model.dto.MessageListDTO;
+import com.imei666.android.mvp.model.dto.MessageListDTODao;
+import com.imei666.android.mvp.model.dto.OrderDTO;
+import com.imei666.android.mvp.view.activity.MainActivity;
+import com.imei666.android.net.HttpPostTask;
+import com.imei666.android.utils.MessageNotificationDispatcher;
+import com.imei666.android.utils.URLConstants;
+import com.imei666.android.utils.adapter.ChatDetailAdapter;
+import com.zhy.http.okhttp.callback.StringCallback;
 
+import org.greenrobot.greendao.DbUtils;
+import org.greenrobot.greendao.query.QueryBuilder;
 import org.kymjs.chat.ChatActivity;
 import org.kymjs.chat.OnOperationListener;
 import org.kymjs.chat.adapter.ChatAdapter;
@@ -30,10 +48,14 @@ import org.kymjs.kjframe.utils.KJLoger;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import es.dmoral.toasty.Toasty;
+import okhttp3.Call;
 
 public class ChatDetailFragment extends BaseFragment {
 
@@ -42,10 +64,18 @@ public class ChatDetailFragment extends BaseFragment {
     KJChatKeyboard box;
     @BindView(R.id.chat_listview)
     ListView mRealListView;
+    private long mFriendId;
+
+    List<MessageDTO> datas = new ArrayList<MessageDTO>();
+    private ChatDetailAdapter adapter;
 
 
-    List<Message> datas = new ArrayList<Message>();
-    private ChatAdapter adapter;
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mFriendId = getArguments().getLong("friendId");
+    }
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -55,69 +85,111 @@ public class ChatDetailFragment extends BaseFragment {
         return view;
     }
 
+    private void loadMsg(){
+        QueryBuilder queryBuilder = DBUtil.getInstance(getActivity()).getDaoSession().getMessageDTODao().queryBuilder();
+        queryBuilder.or(MessageDTODao.Properties.SenderId.eq(mFriendId),MessageDTODao.Properties.RecverId.eq(mFriendId));
+        datas = queryBuilder.list();
+    }
+
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         mRealListView.setSelector(android.R.color.transparent);
+        loadMsg();
         initMessageInputToolBox();
         initListView();
+        mRealListView.setSelection(datas.size()-1);
+        MessageNotificationDispatcher.getInstance().regMessageNotification("chat_detail", new MessageNotificationDispatcher.MessageListener() {
+            @Override
+            public void onMessage(String content) {
+                adapter.refresh(datas);
+            }
+        });
     }
 
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        MessageNotificationDispatcher.getInstance().unregMessageNotification("chat_detail");
+
+    }
+
+    private void sendMsg(String content, final MessageDTO tmpMsg){
+        Map<String,String> paramMap = new HashMap<String, String>();
+
+        paramMap.put("userId","1");
+        paramMap.put("recvId",mFriendId+"");
+        paramMap.put("messageType",0+"");
+        paramMap.put("content",content);
+        new HttpPostTask().doPost(URLConstants.SEND_MSG, paramMap, new StringCallback() {
+            @Override
+            public void onError(Call call, Exception e, int id) {
+
+            }
+
+            @Override
+            public void onResponse(String response, int id) {
+
+                JSONObject jsonObject = JSONObject.parseObject(response);
+                if (!jsonObject.getString("msgCode").equals("0")){
+
+                    return;
+                }
+                MessageDTO dto = JSON.parseObject(jsonObject.getString("datas"),MessageDTO.class);
+                boolean isOWnSend = 1==dto.getSenderId()?true:false;
+                dto.setOwnSend(isOWnSend);
+                dto.setSendStatus(1);
+                if (dto==null){
+                    return;
+                }
+                DBUtil.getInstance(getActivity()).getDaoSession().getMessageDTODao().insert(dto);
+                datas.remove(tmpMsg);
+                datas.add(dto);
+                adapter.refresh(datas);
+
+                //记得更新messagelist
+
+                MessageListDTO messageListDTO = new MessageListDTO();
+                long friendId = isOWnSend?dto.getRecverId():dto.getSenderId();
+                messageListDTO.setFriendId(friendId);
+                messageListDTO.setContent(dto.getContent());
+                messageListDTO.setFriendAvatar(isOWnSend?dto.getRecverAvatar():dto.getSenderAvatar());
+                messageListDTO.setFriendName(isOWnSend?dto.getRecverName():dto.getSenderName());
+                messageListDTO.setTime(dto.getSendTime());
+                DBUtil.getInstance(getActivity()).getDaoSession().getMessageListDTODao().insertOrReplace(messageListDTO);
+            }
+        });
+    }
 
     private void initListView() {
-        byte[] emoji = new byte[]{
-                (byte) 0xF0, (byte) 0x9F, (byte) 0x98, (byte) 0x81
-        };
-        Message message = new Message(Message.MSG_TYPE_TEXT,
-                Message.MSG_STATE_SUCCESS, "\ue415", "avatar", "Jerry", "avatar",
-                new String(emoji), false, true, new Date(System.currentTimeMillis()
-                - (1000 * 60 * 60 * 24) * 8));
-        Message message1 = new Message(Message.MSG_TYPE_TEXT,
-                Message.MSG_STATE_SUCCESS, "Tom", "avatar", "Jerry", "avatar",
-                "以后的版本支持链接高亮喔:http://www.kymjs.com支持http、https、svn、ftp开头的链接",
-                true, true, new Date(System.currentTimeMillis() - (1000 * 60 * 60 * 24) * 8));
-        Message message2 = new Message(Message.MSG_TYPE_PHOTO,
-                Message.MSG_STATE_SUCCESS, "Tom", "avatar", "Jerry", "avatar",
-                "http://static.oschina.net/uploads/space/2015/0611/103706_rpPc_1157342.png",
-                false, true, new Date(
-                System.currentTimeMillis() - (1000 * 60 * 60 * 24) * 7));
-        Message message6 = new Message(Message.MSG_TYPE_TEXT,
-                Message.MSG_STATE_FAIL, "Tom", "avatar", "Jerry", "avatar",
-                "test send fail", true, false, new Date(
-                System.currentTimeMillis() - (1000 * 60 * 60 * 24) * 6));
-        Message message7 = new Message(Message.MSG_TYPE_TEXT,
-                Message.MSG_STATE_SENDING, "Tom", "avatar", "Jerry", "avatar",
-                "<a href=\"http://kymjs.com\">自定义链接</a>也是支持的", true, true, new Date(System.currentTimeMillis()
-                - (1000 * 60 * 60 * 24) * 6));
 
-        datas.add(message);
-        datas.add(message1);
-        datas.add(message2);
-        datas.add(message6);
-        datas.add(message7);
 
-        adapter = new ChatAdapter(getActivity(), datas, getOnChatItemClickListener());
+        adapter = new ChatDetailAdapter(getActivity(), datas, getOnChatItemClickListener());
         mRealListView.setAdapter(adapter);
     }
     private void initMessageInputToolBox() {
         box.setOnOperationListener(new OnOperationListener() {
             @Override
             public void send(String content) {
-                Message message = new Message(Message.MSG_TYPE_TEXT, Message.MSG_STATE_SUCCESS,
-                        "Tom", "avatar", "Jerry",
-                        "avatar", content, true, true, new Date());
-                datas.add(message);
+                MessageDTO dto = new MessageDTO();
+                dto.setSendStatus(0);
+                dto.setOwnSend(true);
+                dto.setContent(content);
+                dto.setMessageType(0);
+                dto.setRecverId(mFriendId);
+                dto.setSenderId(1);
+                datas.add(dto);
                 adapter.refresh(datas);
-//                createReplayMsg(message);
+                sendMsg(content,dto);
             }
 
             @Override
             public void selectedFace(Faceicon content) {
-                Message message = new Message(Message.MSG_TYPE_FACE, Message.MSG_STATE_SUCCESS,
-                        "Tom", "avatar", "Jerry", "avatar", content.getPath(), true, true, new
-                        Date());
-                datas.add(message);
-                adapter.refresh(datas);
+//                Message message = new Message(Message.MSG_TYPE_FACE, Message.MSG_STATE_SUCCESS,
+//                        "Tom", "avatar", "Jerry", "avatar", content.getPath(), true, true, new
+//                        Date());
+//                datas.add(message);
+//                adapter.refresh(datas);
 //                createReplayMsg(message);
             }
 
@@ -184,20 +256,20 @@ public class ChatDetailFragment extends BaseFragment {
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
-        if (resultCode != Activity.RESULT_OK) {
-            return;
-        }
-        if (requestCode == REQUEST_CODE_GETIMAGE_BYSDCARD) {
-            Uri dataUri = data.getData();
-            if (dataUri != null) {
-                File file = FileUtils.uri2File(getActivity(), dataUri);
-                Message message = new Message(Message.MSG_TYPE_PHOTO, Message.MSG_STATE_SUCCESS,
-                        "Tom", "avatar", "Jerry",
-                        "avatar", file.getAbsolutePath(), true, true, new Date());
-                datas.add(message);
-                adapter.refresh(datas);
-            }
-        }
+//        if (resultCode != Activity.RESULT_OK) {
+//            return;
+//        }
+//        if (requestCode == REQUEST_CODE_GETIMAGE_BYSDCARD) {
+//            Uri dataUri = data.getData();
+//            if (dataUri != null) {
+//                File file = FileUtils.uri2File(getActivity(), dataUri);
+//                Message message = new Message(Message.MSG_TYPE_PHOTO, Message.MSG_STATE_SUCCESS,
+//                        "Tom", "avatar", "Jerry",
+//                        "avatar", file.getAbsolutePath(), true, true, new Date());
+//                datas.add(message);
+//                adapter.refresh(datas);
+//            }
+//        }
     }
 
     /**
